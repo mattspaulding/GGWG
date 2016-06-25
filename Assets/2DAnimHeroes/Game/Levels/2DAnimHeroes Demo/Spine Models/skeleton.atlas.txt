@@ -1,0 +1,7284 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_waist
+  rotate: true
+  xy: 711, 3
+  size: 138, 146
+  orig: 283, 216
+  offset: 76, 39
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_3_open
+  rotate: false
+  xy: 2, 2
+  size: 139, 139
+  orig: 233, 220
+  offset: 47, 42
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_3_open
+  rotate: false
+  xy: 2, 2
+  size: 139, 139
+  orig: 233, 220
+  offset: 47, 42
+  index: -1
+Dummy/Dummy_leg_upper_far
+  rotate: true
+  xy: 859, 65
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_upper_near
+  rotate: true
+  xy: 859, 65
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_neck
+  rotate: false
+  xy: 859, 2
+  size: 81, 61
+  orig: 126, 106
+  offset: 23, 21
+  index: -1
+Fletch/Fletch_sword_1
+  rotate: true
+  xy: 143, 3
+  size: 138, 566
+  orig: 508, 875
+  offset: 190, 74
+  index: -1
+PamelaFrost-02/PamelaFrost-02_neck
+  rotate: true
+  xy: 942, 2
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 25
+  index: -1
+StumpyPete/StumpyPete_foot_near_1
+  rotate: false
+  xy: 1012, 62
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_foot_near_2_bent
+  rotate: false
+  xy: 1012, 62
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Template/Template_sword_3_bigSwing
+  rotate: false
+  xy: 2, 143
+  size: 1014, 879
+  orig: 1014, 879
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_leg_lower_far
+  rotate: false
+  xy: 734, 166
+  size: 111, 189
+  orig: 194, 325
+  offset: 52, 68
+  index: -1
+BeardyBuck/BeardyBuck_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-04/PamelaFrost-04_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+GabrielCaine/GabrielCaine_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+BuckMatthews/BuckMatthews_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-03/PamelaFrost-03_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost/PamelaFrost_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-05/PamelaFrost-05_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+TruckMatthews/TruckMatthews_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+DuckMatthews/DuckMatthews_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+ChuckMatthews/ChuckMatthews_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+YoungBuck/YoungBuck_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-02/PamelaFrost-02_pistol
+  rotate: true
+  xy: 847, 417
+  size: 232, 175
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_gun
+  rotate: true
+  xy: 516, 142
+  size: 507, 216
+  orig: 604, 421
+  offset: 66, 51
+  index: -1
+Commander-Icestrike/Commander-Icestrike_gun
+  rotate: true
+  xy: 516, 142
+  size: 507, 216
+  orig: 604, 421
+  offset: 66, 51
+  index: -1
+Commander-Firestrike/Commander-Firestrike_gun
+  rotate: true
+  xy: 516, 142
+  size: 507, 216
+  orig: 604, 421
+  offset: 66, 51
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_gun
+  rotate: true
+  xy: 516, 142
+  size: 507, 216
+  orig: 604, 421
+  offset: 66, 51
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_machineGun
+  rotate: false
+  xy: 506, 2
+  size: 339, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun
+  rotate: false
+  xy: 506, 2
+  size: 339, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Firestrike/Commander-Firestrike_machineGun
+  rotate: false
+  xy: 506, 2
+  size: 339, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_machineGun_shoot
+  rotate: false
+  xy: 2, 2
+  size: 502, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun_shoot
+  rotate: false
+  xy: 2, 2
+  size: 502, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Firestrike/Commander-Firestrike_machineGun_shoot
+  rotate: false
+  xy: 2, 2
+  size: 502, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Commander-Icestrike/Commander-Icestrike_machineGun_shoot
+  rotate: false
+  xy: 2, 2
+  size: 502, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Dummy/Dummy_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_pistol
+  rotate: true
+  xy: 847, 184
+  size: 231, 175
+  orig: 231, 175
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_hand_far_2_fistPalm
+  rotate: false
+  xy: 640, 651
+  size: 92, 86
+  orig: 199, 156
+  offset: 53, 37
+  index: -1
+Fletch/Fletch_hand_near_2_fistPalm
+  rotate: false
+  xy: 640, 651
+  size: 92, 86
+  orig: 199, 156
+  offset: 53, 37
+  index: -1
+PamelaFrost-02/PamelaFrost-02_torso
+  rotate: false
+  xy: 847, 2
+  size: 161, 180
+  orig: 512, 452
+  offset: 187, 121
+  index: -1
+PamelaFrost/PamelaFrost_waist
+  rotate: true
+  xy: 516, 739
+  size: 283, 216
+  orig: 283, 216
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_gun
+  rotate: true
+  xy: 847, 651
+  size: 371, 175
+  orig: 608, 425
+  offset: 140, 109
+  index: -1
+Template/Template_sword_1
+  rotate: false
+  xy: 2, 142
+  size: 512, 880
+  orig: 512, 880
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_arm_lower_far
+  rotate: true
+  xy: 516, 651
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_arm_lower_near
+  rotate: true
+  xy: 516, 651
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_sword_1
+  rotate: false
+  xy: 734, 357
+  size: 111, 665
+  orig: 512, 880
+  offset: 196, 104
+  index: -1
+
+skeleton3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_waist
+  rotate: true
+  xy: 485, 5
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_foot_far_1
+  rotate: true
+  xy: 958, 50
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_foot_near_1
+  rotate: true
+  xy: 958, 50
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Icestrike/Commander-Icestrike_machineGun
+  rotate: false
+  xy: 2, 3
+  size: 339, 138
+  orig: 656, 420
+  offset: 112, 93
+  index: -1
+Dummy/Dummy_waist
+  rotate: false
+  xy: 632, 5
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_torso
+  rotate: true
+  xy: 774, 2
+  size: 169, 182
+  orig: 169, 182
+  offset: 0, 0
+  index: -1
+Template/Template_sword_2_swing
+  rotate: false
+  xy: 2, 143
+  size: 770, 878
+  orig: 770, 878
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_head_1
+  rotate: false
+  xy: 774, 456
+  size: 247, 282
+  orig: 543, 543
+  offset: 146, 36
+  index: -1
+TruckMatthews/TruckMatthews_head_4_wideEyes
+  rotate: false
+  xy: 774, 740
+  size: 248, 281
+  orig: 543, 543
+  offset: 146, 37
+  index: -1
+TruckMatthews/TruckMatthews_head_5_sad
+  rotate: false
+  xy: 774, 173
+  size: 247, 281
+  orig: 543, 543
+  offset: 146, 39
+  index: -1
+TurboTed-Green/TurboTed-Green_hand_3_open
+  rotate: true
+  xy: 343, 3
+  size: 138, 140
+  orig: 138, 140
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_3_open
+  rotate: true
+  xy: 343, 3
+  size: 138, 140
+  orig: 138, 140
+  offset: 0, 0
+  index: -1
+
+skeleton4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_sword_1
+  rotate: false
+  xy: 2, 299
+  size: 258, 723
+  orig: 512, 880
+  offset: 131, 95
+  index: -1
+Assassin/Assassin_sword_3_bigSwing
+  rotate: true
+  xy: 262, 347
+  size: 675, 683
+  orig: 1014, 879
+  offset: 206, 111
+  index: -1
+BuckMatthews/BuckMatthews_head_3_happy
+  rotate: true
+  xy: 2, 5
+  size: 292, 352
+  orig: 543, 543
+  offset: 122, 35
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_leg_upper_far
+  rotate: false
+  xy: 947, 347
+  size: 72, 156
+  orig: 173, 267
+  offset: 52, 58
+  index: -1
+DuckMatthews/DuckMatthews_arm_lower_far
+  rotate: false
+  xy: 947, 911
+  size: 75, 111
+  orig: 259, 209
+  offset: 86, 50
+  index: -1
+DuckMatthews/DuckMatthews_head_5_sad
+  rotate: false
+  xy: 356, 2
+  size: 356, 343
+  orig: 543, 543
+  offset: 125, 42
+  index: -1
+PamelaFrost/PamelaFrost_arm_upper_far
+  rotate: false
+  xy: 947, 660
+  size: 74, 167
+  orig: 299, 282
+  offset: 107, 54
+  index: -1
+StumpyPete/StumpyPete_head_3_happy
+  rotate: true
+  xy: 714, 8
+  size: 337, 308
+  orig: 543, 543
+  offset: 100, 5
+  index: -1
+StumpyPete/StumpyPete_leg_upper_far
+  rotate: false
+  xy: 947, 505
+  size: 74, 153
+  orig: 177, 271
+  offset: 50, 52
+  index: -1
+StumpyPete/StumpyPete_neck
+  rotate: false
+  xy: 947, 829
+  size: 75, 80
+  orig: 130, 110
+  offset: 30, 19
+  index: -1
+
+skeleton5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost-04/PamelaFrost-04_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+GabrielCaine/GabrielCaine_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+DuckMatthews/DuckMatthews_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+BuckMatthews/BuckMatthews_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost-05/PamelaFrost-05_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost-03/PamelaFrost-03_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+PamelaFrost/PamelaFrost_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+TruckMatthews/TruckMatthews_sword_2_swing
+  rotate: true
+  xy: 2, 64
+  size: 330, 635
+  orig: 767, 873
+  offset: 219, 102
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_arm_lower_near
+  rotate: true
+  xy: 126, 6
+  size: 56, 121
+  orig: 56, 121
+  offset: 0, 0
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_far_2_fistPalm
+  rotate: true
+  xy: 969, 9
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_near_2_fistPalm
+  rotate: true
+  xy: 969, 9
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_sword_3_bigSwing
+  rotate: true
+  xy: 613, 540
+  size: 482, 407
+  orig: 1010, 875
+  offset: 331, 84
+  index: -1
+Commander-Icestrike/Commander-Icestrike_sword_3_bigSwing
+  rotate: true
+  xy: 613, 540
+  size: 482, 407
+  orig: 1010, 875
+  offset: 331, 84
+  index: -1
+Commander-Firestrike/Commander-Firestrike_sword_3_bigSwing
+  rotate: true
+  xy: 613, 540
+  size: 482, 407
+  orig: 1010, 875
+  offset: 331, 84
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_3_bigSwing
+  rotate: true
+  xy: 613, 540
+  size: 482, 407
+  orig: 1010, 875
+  offset: 331, 84
+  index: -1
+Commander-Firestrike/Commander-Firestrike_arm_lower_near
+  rotate: true
+  xy: 249, 6
+  size: 56, 121
+  orig: 56, 121
+  offset: 0, 0
+  index: -1
+Commander-Firestrike/Commander-Firestrike_foot_far_1
+  rotate: false
+  xy: 723, 2
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Firestrike/Commander-Firestrike_foot_near_1
+  rotate: false
+  xy: 723, 2
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Icestrike/Commander-Icestrike_arm_lower_near
+  rotate: true
+  xy: 2, 5
+  size: 57, 122
+  orig: 254, 203
+  offset: 98, 39
+  index: -1
+Commander-Icestrike/Commander-Icestrike_foot_far_1
+  rotate: false
+  xy: 846, 2
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Icestrike/Commander-Icestrike_foot_near_1
+  rotate: false
+  xy: 846, 2
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_lower_near
+  rotate: true
+  xy: 372, 6
+  size: 56, 121
+  orig: 56, 121
+  offset: 0, 0
+  index: -1
+DuckMatthews/DuckMatthews_head_2_injured
+  rotate: false
+  xy: 639, 66
+  size: 357, 341
+  orig: 543, 543
+  offset: 124, 54
+  index: -1
+Fletch/Fletch_leg_lower_far
+  rotate: true
+  xy: 613, 409
+  size: 129, 210
+  orig: 190, 321
+  offset: 45, 46
+  index: -1
+Fletch/Fletch_leg_lower_near_2
+  rotate: true
+  xy: 613, 409
+  size: 129, 210
+  orig: 190, 321
+  offset: 45, 46
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_near_1
+  rotate: true
+  xy: 825, 425
+  size: 113, 192
+  orig: 194, 325
+  offset: 40, 64
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_lower_far
+  rotate: true
+  xy: 495, 2
+  size: 60, 112
+  orig: 259, 209
+  offset: 97, 50
+  index: -1
+PamelaFrost-05/PamelaFrost-05_arm_lower_far
+  rotate: true
+  xy: 495, 2
+  size: 60, 112
+  orig: 259, 209
+  offset: 97, 50
+  index: -1
+PamelaFrost-03/PamelaFrost-03_arm_lower_far
+  rotate: true
+  xy: 609, 2
+  size: 60, 112
+  orig: 259, 209
+  offset: 97, 50
+  index: -1
+PamelaFrost-04/PamelaFrost-04_arm_lower_far
+  rotate: true
+  xy: 609, 2
+  size: 60, 112
+  orig: 259, 209
+  offset: 97, 50
+  index: -1
+YoungBuck/YoungBuck_sword_3_bigSwing
+  rotate: false
+  xy: 2, 396
+  size: 609, 626
+  orig: 1014, 879
+  offset: 198, 107
+  index: -1
+
+skeleton6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_gun
+  rotate: false
+  xy: 2, 2
+  size: 608, 425
+  orig: 608, 425
+  offset: 0, 0
+  index: -1
+Template/Template_gun
+  rotate: false
+  xy: 2, 2
+  size: 608, 425
+  orig: 608, 425
+  offset: 0, 0
+  index: -1
+BeardyBuck/BeardyBuck_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+TruckMatthews/TruckMatthews_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost-04/PamelaFrost-04_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+GabrielCaine/GabrielCaine_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost-03/PamelaFrost-03_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost-05/PamelaFrost-05_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+BuckMatthews/BuckMatthews_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+PamelaFrost/PamelaFrost_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+DuckMatthews/DuckMatthews_sword_1
+  rotate: false
+  xy: 947, 397
+  size: 73, 625
+  orig: 508, 875
+  offset: 218, 104
+  index: -1
+BeardyBuck/BeardyBuck_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+TruckMatthews/TruckMatthews_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost/PamelaFrost_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+BuckMatthews/BuckMatthews_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost-03/PamelaFrost-03_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost-04/PamelaFrost-04_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+DuckMatthews/DuckMatthews_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+PamelaFrost-05/PamelaFrost-05_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+GabrielCaine/GabrielCaine_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_sword_3_bigSwing
+  rotate: false
+  xy: 2, 429
+  size: 614, 593
+  orig: 1010, 875
+  offset: 174, 105
+  index: -1
+Dummy/Dummy_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_sword_2_swing
+  rotate: false
+  xy: 618, 386
+  size: 327, 636
+  orig: 327, 636
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_head_2_injured
+  rotate: false
+  xy: 612, 26
+  size: 410, 358
+  orig: 543, 543
+  offset: 77, 21
+  index: -1
+
+skeleton7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_machineGun_clip
+  rotate: true
+  xy: 810, 158
+  size: 238, 210
+  orig: 238, 210
+  offset: 0, 0
+  index: -1
+Template/Template_machineGun_clip
+  rotate: true
+  xy: 810, 158
+  size: 238, 210
+  orig: 238, 210
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_machineGun_clip
+  rotate: true
+  xy: 810, 158
+  size: 238, 210
+  orig: 238, 210
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_machineGun_clip
+  rotate: true
+  xy: 810, 158
+  size: 238, 210
+  orig: 238, 210
+  offset: 0, 0
+  index: -1
+Assassin/Assassin_sword_2_swing
+  rotate: false
+  xy: 2, 347
+  size: 434, 675
+  orig: 770, 878
+  offset: 210, 102
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_near_1
+  rotate: false
+  xy: 273, 2
+  size: 113, 187
+  orig: 194, 325
+  offset: 46, 69
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_arm_lower_far
+  rotate: false
+  xy: 388, 83
+  size: 43, 106
+  orig: 255, 205
+  offset: 100, 59
+  index: -1
+Fletch/Fletch_sword_3_bigSwing
+  rotate: false
+  xy: 438, 398
+  size: 581, 624
+  orig: 1010, 875
+  offset: 245, 73
+  index: -1
+Fletch/Fletch_waist
+  rotate: true
+  xy: 2, 5
+  size: 340, 269
+  orig: 582, 442
+  offset: 17, 146
+  index: -1
+MetalMan-Blue/MetalMan-Blue_leg_upper_far
+  rotate: true
+  xy: 273, 269
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_leg_upper_near
+  rotate: true
+  xy: 273, 269
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_leg_upper_far
+  rotate: true
+  xy: 273, 191
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_leg_upper_near
+  rotate: true
+  xy: 273, 191
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_torso
+  rotate: true
+  xy: 810, 3
+  size: 153, 183
+  orig: 153, 183
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_head_1
+  rotate: true
+  xy: 438, 3
+  size: 393, 370
+  orig: 543, 543
+  offset: 93, 33
+  index: -1
+
+skeleton8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_machineGun
+  rotate: false
+  xy: 2, 597
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_machineGun
+  rotate: false
+  xy: 2, 597
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_machineGun
+  rotate: false
+  xy: 2, 597
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+Template/Template_machineGun
+  rotate: false
+  xy: 2, 597
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+DuckMatthews/DuckMatthews_arm_upper_far
+  rotate: false
+  xy: 927, 226
+  size: 94, 180
+  orig: 299, 282
+  offset: 103, 49
+  index: -1
+DuckMatthews/DuckMatthews_arm_upper_near
+  rotate: false
+  xy: 927, 44
+  size: 94, 180
+  orig: 299, 282
+  offset: 103, 49
+  index: -1
+Dummy/Dummy_sword_3_bigSwing
+  rotate: false
+  xy: 2, 2
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_3_bigSwing
+  rotate: false
+  xy: 2, 2
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_sword_3_bigSwing
+  rotate: false
+  xy: 2, 2
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_sword_3_bigSwing
+  rotate: false
+  xy: 2, 2
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_leg_lower_near_1
+  rotate: false
+  xy: 927, 408
+  size: 94, 201
+  orig: 190, 321
+  offset: 54, 59
+  index: -1
+PamelaFrost/PamelaFrost_head_3_happy
+  rotate: true
+  xy: 664, 611
+  size: 410, 357
+  orig: 543, 543
+  offset: 78, 23
+  index: -1
+StumpyPete/StumpyPete_sword_2_swing
+  rotate: false
+  xy: 617, 5
+  size: 308, 590
+  orig: 770, 878
+  offset: 278, 92
+  index: -1
+
+skeleton9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_machineGun_shoot
+  rotate: false
+  xy: 2, 598
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_machineGun_shoot
+  rotate: false
+  xy: 2, 598
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+Template/Template_machineGun_shoot
+  rotate: false
+  xy: 2, 598
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_machineGun_shoot
+  rotate: false
+  xy: 2, 598
+  size: 660, 424
+  orig: 660, 424
+  offset: 0, 0
+  index: -1
+Assassin/Assassin_neck
+  rotate: true
+  xy: 966, 350
+  size: 63, 56
+  orig: 130, 110
+  offset: 34, 27
+  index: -1
+Commander-Firestrike/Commander-Firestrike_arm_lower_far
+  rotate: false
+  xy: 966, 83
+  size: 43, 106
+  orig: 255, 205
+  offset: 100, 59
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_far_2_fistPalm
+  rotate: false
+  xy: 966, 297
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_near_2_fistPalm
+  rotate: false
+  xy: 966, 297
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_far_2_fistPalm
+  rotate: false
+  xy: 966, 244
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_near_2_fistPalm
+  rotate: false
+  xy: 966, 244
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_2_fistPalm
+  rotate: false
+  xy: 966, 191
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_2_fistPalm
+  rotate: false
+  xy: 966, 191
+  size: 55, 51
+  orig: 199, 156
+  offset: 66, 64
+  index: -1
+DuckMatthews/DuckMatthews_head_3_happy
+  rotate: false
+  xy: 664, 668
+  size: 356, 354
+  orig: 543, 543
+  offset: 125, 40
+  index: -1
+Fletch/Fletch_arm_lower_near
+  rotate: true
+  xy: 664, 598
+  size: 68, 116
+  orig: 254, 203
+  offset: 90, 47
+  index: -1
+Fletch/Fletch_gun_shoot
+  rotate: false
+  xy: 617, 415
+  size: 404, 181
+  orig: 604, 421
+  offset: 104, 88
+  index: -1
+MetalMan-Blue/MetalMan-Blue_sword_3_bigSwing
+  rotate: false
+  xy: 2, 3
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_sword_3_bigSwing
+  rotate: false
+  xy: 2, 3
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_sword_3_bigSwing
+  rotate: false
+  xy: 2, 3
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_sword_3_bigSwing
+  rotate: false
+  xy: 2, 3
+  size: 613, 593
+  orig: 613, 593
+  offset: 0, 0
+  index: -1
+PamelaFrost-03/PamelaFrost-03_neck
+  rotate: false
+  xy: 869, 598
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 27
+  index: -1
+PamelaFrost-04/PamelaFrost-04_neck
+  rotate: false
+  xy: 869, 598
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 27
+  index: -1
+PamelaFrost-05/PamelaFrost-05_neck
+  rotate: false
+  xy: 932, 598
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 29
+  index: -1
+PamelaFrost/PamelaFrost_head_1
+  rotate: true
+  xy: 617, 2
+  size: 411, 347
+  orig: 543, 543
+  offset: 78, 32
+  index: -1
+TurboTed-Blue/TurboTed-Blue_neck
+  rotate: false
+  xy: 782, 598
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_neck
+  rotate: false
+  xy: 782, 598
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_neck
+  rotate: false
+  xy: 782, 598
+  size: 85, 68
+  orig: 85, 68
+  offset: 0, 0
+  index: -1
+
+skeleton10.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_arm_upper_near
+  rotate: true
+  xy: 740, 44
+  size: 299, 282
+  orig: 299, 282
+  offset: 0, 0
+  index: -1
+DuckMatthews/DuckMatthews_head_4_wideEyes
+  rotate: false
+  xy: 382, 5
+  size: 356, 338
+  orig: 543, 543
+  offset: 125, 47
+  index: -1
+DuckMatthews/DuckMatthews_neck
+  rotate: false
+  xy: 921, 419
+  size: 68, 57
+  orig: 130, 110
+  offset: 34, 30
+  index: -1
+Dummy/Dummy_arm_upper_far
+  rotate: false
+  xy: 921, 660
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_upper_near
+  rotate: false
+  xy: 921, 478
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_sword_1
+  rotate: true
+  xy: 382, 345
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+PamelaFrost-04/PamelaFrost-04_head_3_happy
+  rotate: false
+  xy: 2, 2
+  size: 378, 377
+  orig: 543, 543
+  offset: 96, 44
+  index: -1
+StumpyPete/StumpyPete_sword_3_bigSwing
+  rotate: true
+  xy: 315, 419
+  size: 603, 604
+  orig: 1014, 879
+  offset: 228, 92
+  index: -1
+YoungBuck/YoungBuck_arm_upper_far
+  rotate: false
+  xy: 921, 842
+  size: 101, 180
+  orig: 299, 282
+  offset: 97, 50
+  index: -1
+YoungBuck/YoungBuck_sword_2_swing
+  rotate: false
+  xy: 2, 381
+  size: 311, 641
+  orig: 770, 878
+  offset: 252, 106
+  index: -1
+
+skeleton11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_arm_lower_far
+  rotate: false
+  xy: 722, 2
+  size: 118, 126
+  orig: 259, 209
+  offset: 68, 41
+  index: -1
+Assassin/Assassin_gun_shoot
+  rotate: true
+  xy: 150, 414
+  size: 608, 425
+  orig: 608, 425
+  offset: 0, 0
+  index: -1
+Template/Template_gun_shoot
+  rotate: true
+  xy: 150, 414
+  size: 608, 425
+  orig: 608, 425
+  offset: 0, 0
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_1_fistBack
+  rotate: true
+  xy: 933, 431
+  size: 113, 89
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_neck
+  rotate: true
+  xy: 577, 899
+  size: 123, 143
+  orig: 170, 227
+  offset: 26, 81
+  index: -1
+Commander-Firestrike/Commander-Firestrike_neck
+  rotate: true
+  xy: 577, 774
+  size: 123, 143
+  orig: 170, 227
+  offset: 26, 81
+  index: -1
+MetalMan-Blue/MetalMan-Blue_sword_1
+  rotate: false
+  xy: 2, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_sword_1
+  rotate: false
+  xy: 2, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_sword_1
+  rotate: false
+  xy: 2, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_sword_1
+  rotate: false
+  xy: 2, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_near_1
+  rotate: false
+  xy: 933, 546
+  size: 89, 192
+  orig: 194, 325
+  offset: 53, 67
+  index: -1
+PamelaFrost/PamelaFrost_head_4_wideEyes
+  rotate: true
+  xy: 373, 2
+  size: 410, 347
+  orig: 543, 543
+  offset: 81, 35
+  index: -1
+Template/Template_arm_upper_far
+  rotate: false
+  xy: 722, 740
+  size: 299, 282
+  orig: 299, 282
+  offset: 0, 0
+  index: -1
+Template/Template_arm_upper_near
+  rotate: false
+  xy: 722, 130
+  size: 299, 282
+  orig: 299, 282
+  offset: 0, 0
+  index: -1
+Template/Template_foot_far_1
+  rotate: true
+  xy: 577, 414
+  size: 324, 176
+  orig: 324, 176
+  offset: 0, 0
+  index: -1
+Template/Template_foot_near_1
+  rotate: true
+  xy: 755, 414
+  size: 324, 176
+  orig: 324, 176
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_foot_far_2_bent
+  rotate: false
+  xy: 842, 22
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_foot_near_2_bent
+  rotate: false
+  xy: 842, 22
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_sword_1
+  rotate: false
+  xy: 76, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_sword_1
+  rotate: false
+  xy: 76, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_sword_1
+  rotate: false
+  xy: 76, 396
+  size: 72, 626
+  orig: 72, 626
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_head_3_happy
+  rotate: true
+  xy: 2, 2
+  size: 392, 369
+  orig: 543, 543
+  offset: 92, 34
+  index: -1
+
+skeleton12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_leg_lower_near_1
+  rotate: false
+  xy: 911, 183
+  size: 111, 189
+  orig: 194, 325
+  offset: 52, 68
+  index: -1
+Assassin/Assassin_pistol
+  rotate: false
+  xy: 547, 699
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_pistol
+  rotate: false
+  xy: 547, 699
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Template/Template_pistol
+  rotate: false
+  xy: 547, 699
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Assassin/Assassin_pistol_shoot
+  rotate: false
+  xy: 547, 374
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_pistol_shoot
+  rotate: false
+  xy: 547, 374
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Template/Template_pistol_shoot
+  rotate: false
+  xy: 547, 374
+  size: 461, 323
+  orig: 461, 323
+  offset: 0, 0
+  index: -1
+Template/Template_head_1
+  rotate: false
+  xy: 2, 479
+  size: 543, 543
+  orig: 543, 543
+  offset: 0, 0
+  index: -1
+Template/Template_torso
+  rotate: false
+  xy: 2, 25
+  size: 512, 452
+  orig: 512, 452
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_far_2_bent
+  rotate: true
+  xy: 911, 2
+  size: 179, 108
+  orig: 179, 108
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_near_2_bent
+  rotate: true
+  xy: 911, 2
+  size: 179, 108
+  orig: 179, 108
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_head_2_injured
+  rotate: false
+  xy: 516, 2
+  size: 393, 370
+  orig: 543, 543
+  offset: 93, 33
+  index: -1
+
+skeleton13.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+YoungBuck/YoungBuck_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+DuckMatthews/DuckMatthews_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+GabrielCaine/GabrielCaine_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-05/PamelaFrost-05_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BuckMatthews/BuckMatthews_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+TruckMatthews/TruckMatthews_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-03/PamelaFrost-03_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-04/PamelaFrost-04_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost/PamelaFrost_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun
+  rotate: true
+  xy: 2, 2
+  size: 437, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BuckMatthews/BuckMatthews_head_5_sad
+  rotate: false
+  xy: 353, 680
+  size: 286, 336
+  orig: 543, 543
+  offset: 123, 50
+  index: -1
+Commander-Icestrike/Commander-Icestrike_arm_lower_far
+  rotate: true
+  xy: 641, 10
+  size: 43, 106
+  orig: 255, 205
+  offset: 100, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_lower_far
+  rotate: true
+  xy: 749, 10
+  size: 43, 106
+  orig: 255, 205
+  offset: 100, 59
+  index: -1
+Dummy/Dummy_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_machineGun
+  rotate: true
+  xy: 165, 2
+  size: 437, 161
+  orig: 437, 161
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_head_2_injured
+  rotate: false
+  xy: 353, 443
+  size: 272, 235
+  orig: 541, 541
+  offset: 115, 64
+  index: -1
+Fletch/Fletch_sword_2_swing
+  rotate: false
+  xy: 2, 441
+  size: 197, 575
+  orig: 767, 873
+  offset: 385, 72
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_1
+  rotate: true
+  xy: 328, 11
+  size: 430, 311
+  orig: 543, 543
+  offset: 67, 45
+  index: -1
+PamelaFrost-03/PamelaFrost-03_head_2_injured
+  rotate: false
+  xy: 641, 55
+  size: 378, 386
+  orig: 543, 543
+  offset: 98, 40
+  index: -1
+PamelaFrost-04/PamelaFrost-04_head_4_wideEyes
+  rotate: false
+  xy: 641, 638
+  size: 379, 378
+  orig: 543, 543
+  offset: 95, 48
+  index: -1
+StumpyPete/StumpyPete_foot_far_2_bent
+  rotate: true
+  xy: 929, 495
+  size: 141, 93
+  orig: 305, 195
+  offset: 83, 43
+  index: -1
+StumpyPete/StumpyPete_sword_1
+  rotate: false
+  xy: 201, 443
+  size: 150, 573
+  orig: 512, 880
+  offset: 179, 93
+  index: -1
+TurboTed-Blue/TurboTed-Blue_leg_lower_far
+  rotate: false
+  xy: 627, 443
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_leg_lower_near_2
+  rotate: false
+  xy: 627, 443
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_leg_lower_far
+  rotate: false
+  xy: 778, 443
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_leg_lower_near_2
+  rotate: false
+  xy: 778, 443
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+
+skeleton14.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_arm_upper_near
+  rotate: true
+  xy: 208, 4
+  size: 92, 180
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+BeardyBuck/BeardyBuck_foot_far_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_far_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+YoungBuck/YoungBuck_foot_far_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+DuckMatthews/DuckMatthews_foot_far_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+DuckMatthews/DuckMatthews_foot_near_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BuckMatthews/BuckMatthews_foot_near_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BeardyBuck/BeardyBuck_foot_near_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_near_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+YoungBuck/YoungBuck_foot_near_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BuckMatthews/BuckMatthews_foot_far_2_bent
+  rotate: false
+  xy: 710, 478
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_2_fistPalm
+  rotate: true
+  xy: 929, 212
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_2_fistPalm
+  rotate: true
+  xy: 929, 109
+  size: 101, 93
+  orig: 203, 160
+  offset: 53, 33
+  index: -1
+BeardyBuck/BeardyBuck_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+TruckMatthews/TruckMatthews_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+DuckMatthews/DuckMatthews_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+GabrielCaine/GabrielCaine_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BuckMatthews/BuckMatthews_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-03/PamelaFrost-03_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+YoungBuck/YoungBuck_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost/PamelaFrost_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-04/PamelaFrost-04_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+PamelaFrost-05/PamelaFrost-05_machineGun_shoot
+  rotate: false
+  xy: 390, 315
+  size: 538, 161
+  orig: 656, 420
+  offset: 75, 111
+  index: -1
+BuckMatthews/BuckMatthews_hand_near_2_fistPalm
+  rotate: true
+  xy: 929, 6
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+YoungBuck/YoungBuck_hand_far_2_fistPalm
+  rotate: true
+  xy: 929, 6
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_2_fistPalm
+  rotate: false
+  xy: 2, 3
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_gun_shoot
+  rotate: false
+  xy: 390, 97
+  size: 537, 216
+  orig: 604, 421
+  offset: 65, 51
+  index: -1
+Commander-Firestrike/Commander-Firestrike_gun_shoot
+  rotate: false
+  xy: 390, 97
+  size: 537, 216
+  orig: 604, 421
+  offset: 65, 51
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_gun_shoot
+  rotate: false
+  xy: 390, 97
+  size: 537, 216
+  orig: 604, 421
+  offset: 65, 51
+  index: -1
+Commander-Icestrike/Commander-Icestrike_gun_shoot
+  rotate: false
+  xy: 390, 97
+  size: 537, 216
+  orig: 604, 421
+  offset: 65, 51
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_pistol_shoot
+  rotate: false
+  xy: 596, 3
+  size: 229, 92
+  orig: 457, 319
+  offset: 94, 56
+  index: -1
+Commander-Icestrike/Commander-Icestrike_pistol_shoot
+  rotate: false
+  xy: 596, 3
+  size: 229, 92
+  orig: 457, 319
+  offset: 94, 56
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_pistol_shoot
+  rotate: false
+  xy: 596, 3
+  size: 229, 92
+  orig: 457, 319
+  offset: 94, 56
+  index: -1
+Commander-Firestrike/Commander-Firestrike_pistol_shoot
+  rotate: false
+  xy: 596, 3
+  size: 229, 92
+  orig: 457, 319
+  offset: 94, 56
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_2_fistPalm
+  rotate: false
+  xy: 105, 3
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_2_fistPalm
+  rotate: false
+  xy: 390, 2
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+Dummy/Dummy_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_machineGun_shoot
+  rotate: true
+  xy: 547, 485
+  size: 536, 161
+  orig: 536, 161
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_leg_upper_far
+  rotate: false
+  xy: 930, 315
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_leg_upper_near
+  rotate: false
+  xy: 930, 315
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_2_injured
+  rotate: true
+  xy: 710, 592
+  size: 429, 311
+  orig: 543, 543
+  offset: 70, 45
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_far_1_fistBack
+  rotate: false
+  xy: 827, 9
+  size: 100, 86
+  orig: 203, 160
+  offset: 54, 48
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_far_1_fistBack
+  rotate: false
+  xy: 827, 9
+  size: 100, 86
+  orig: 203, 160
+  offset: 54, 48
+  index: -1
+PamelaFrost-04/PamelaFrost-04_head_2_injured
+  rotate: true
+  xy: 2, 98
+  size: 378, 386
+  orig: 543, 543
+  offset: 98, 39
+  index: -1
+Template/Template_head_2_injured
+  rotate: false
+  xy: 2, 478
+  size: 543, 543
+  orig: 543, 543
+  offset: 0, 0
+  index: -1
+Template/Template_neck
+  rotate: false
+  xy: 880, 480
+  size: 130, 110
+  orig: 130, 110
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_hand_near_2_fistPalm
+  rotate: false
+  xy: 493, 2
+  size: 101, 93
+  orig: 203, 160
+  offset: 52, 39
+  index: -1
+
+skeleton15.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_head_1
+  rotate: false
+  xy: 547, 325
+  size: 408, 326
+  orig: 543, 543
+  offset: 57, 41
+  index: -1
+BeardyBuck/BeardyBuck_foot_far_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BuckMatthews/BuckMatthews_foot_near_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+DuckMatthews/DuckMatthews_foot_far_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+TruckMatthews/TruckMatthews_foot_far_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+DuckMatthews/DuckMatthews_foot_near_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BeardyBuck/BeardyBuck_foot_near_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+YoungBuck/YoungBuck_foot_far_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BuckMatthews/BuckMatthews_foot_far_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+YoungBuck/YoungBuck_foot_near_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+TruckMatthews/TruckMatthews_foot_near_1
+  rotate: true
+  xy: 940, 854
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+BeardyBuck/BeardyBuck_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+BuckMatthews/BuckMatthews_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost-03/PamelaFrost-03_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+GabrielCaine/GabrielCaine_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost-05/PamelaFrost-05_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+YoungBuck/YoungBuck_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost/PamelaFrost_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+DuckMatthews/DuckMatthews_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+PamelaFrost-04/PamelaFrost-04_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+TruckMatthews/TruckMatthews_gun_shoot
+  rotate: false
+  xy: 395, 146
+  size: 469, 177
+  orig: 604, 421
+  offset: 90, 105
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_near_2
+  rotate: true
+  xy: 2, 2
+  size: 104, 188
+  orig: 104, 188
+  offset: 0, 0
+  index: -1
+BeardyBuck/BeardyBuck_neck
+  rotate: true
+  xy: 796, 2
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+GabrielCaine/GabrielCaine_neck
+  rotate: true
+  xy: 796, 2
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+YoungBuck/YoungBuck_neck
+  rotate: true
+  xy: 796, 2
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+BuckMatthews/BuckMatthews_waist
+  rotate: false
+  xy: 395, 332
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+YoungBuck/YoungBuck_waist
+  rotate: false
+  xy: 395, 332
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+ChuckMatthews/ChuckMatthews_waist
+  rotate: false
+  xy: 395, 332
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+DuckMatthews/DuckMatthews_waist
+  rotate: false
+  xy: 395, 332
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+TruckMatthews/TruckMatthews_waist
+  rotate: false
+  xy: 395, 332
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_far_1
+  rotate: true
+  xy: 940, 684
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+ChuckMatthews/ChuckMatthews_foot_near_1
+  rotate: true
+  xy: 940, 684
+  size: 168, 82
+  orig: 324, 176
+  offset: 73, 46
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_leg_lower_far
+  rotate: true
+  xy: 462, 13
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_leg_lower_near_2
+  rotate: true
+  xy: 462, 13
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_leg_lower_near_1
+  rotate: false
+  xy: 957, 488
+  size: 65, 194
+  orig: 190, 321
+  offset: 68, 58
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_sword_1
+  rotate: true
+  xy: 395, 78
+  size: 66, 318
+  orig: 508, 875
+  offset: 240, 106
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_1
+  rotate: true
+  xy: 395, 78
+  size: 66, 318
+  orig: 508, 875
+  offset: 240, 106
+  index: -1
+Commander-Firestrike/Commander-Firestrike_sword_1
+  rotate: true
+  xy: 395, 78
+  size: 66, 318
+  orig: 508, 875
+  offset: 240, 106
+  index: -1
+Commander-Icestrike/Commander-Icestrike_sword_1
+  rotate: true
+  xy: 395, 78
+  size: 66, 318
+  orig: 508, 875
+  offset: 240, 106
+  index: -1
+Commander-Firestrike/Commander-Firestrike_leg_lower_near_1
+  rotate: false
+  xy: 957, 292
+  size: 65, 194
+  orig: 190, 321
+  offset: 68, 58
+  index: -1
+DuckMatthews/DuckMatthews_hand_near_1_fistBack
+  rotate: false
+  xy: 192, 2
+  size: 113, 104
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+Fletch/Fletch_leg_upper_far
+  rotate: true
+  xy: 866, 172
+  size: 118, 156
+  orig: 173, 267
+  offset: 43, 56
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_lower_near
+  rotate: true
+  xy: 667, 2
+  size: 69, 127
+  orig: 258, 208
+  offset: 93, 41
+  index: -1
+PamelaFrost-05/PamelaFrost-05_arm_lower_near
+  rotate: true
+  xy: 667, 2
+  size: 69, 127
+  orig: 258, 208
+  offset: 93, 41
+  index: -1
+StumpyPete/StumpyPete_foot_far_1
+  rotate: false
+  xy: 715, 73
+  size: 147, 71
+  orig: 324, 176
+  offset: 82, 43
+  index: -1
+StumpyPete/StumpyPete_leg_lower_far
+  rotate: false
+  xy: 866, 2
+  size: 127, 168
+  orig: 194, 325
+  offset: 45, 79
+  index: -1
+StumpyPete/StumpyPete_leg_upper_near
+  rotate: true
+  xy: 307, 2
+  size: 74, 153
+  orig: 177, 271
+  offset: 50, 52
+  index: -1
+Template/Template_head_3_happy
+  rotate: false
+  xy: 2, 479
+  size: 543, 543
+  orig: 543, 543
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_head_4_wideEyes
+  rotate: false
+  xy: 2, 108
+  size: 391, 369
+  orig: 543, 543
+  offset: 93, 34
+  index: -1
+YoungBuck/YoungBuck_head_5_sad
+  rotate: false
+  xy: 547, 653
+  size: 391, 369
+  orig: 543, 543
+  offset: 92, 34
+  index: -1
+
+skeleton16.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BuckMatthews/BuckMatthews_head_1
+  rotate: false
+  xy: 726, 680
+  size: 290, 338
+  orig: 543, 543
+  offset: 123, 51
+  index: -1
+ChuckMatthews/ChuckMatthews_head_2_injured
+  rotate: false
+  xy: 762, 176
+  size: 259, 297
+  orig: 543, 543
+  offset: 159, 23
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_foot_far_2_bent
+  rotate: false
+  xy: 547, 475
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_foot_near_2_bent
+  rotate: false
+  xy: 547, 475
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Firestrike/Commander-Firestrike_foot_far_2_bent
+  rotate: false
+  xy: 661, 475
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Firestrike/Commander-Firestrike_foot_near_2_bent
+  rotate: false
+  xy: 661, 475
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+DuckMatthews/DuckMatthews_hand_far_1_fistBack
+  rotate: false
+  xy: 2, 2
+  size: 113, 91
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+Dummy/Dummy_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_gun_shoot
+  rotate: true
+  xy: 547, 550
+  size: 468, 177
+  orig: 468, 177
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_foot_far_2_bent
+  rotate: false
+  xy: 624, 6
+  size: 133, 87
+  orig: 301, 191
+  offset: 83, 46
+  index: -1
+Fletch/Fletch_foot_near_2_bent
+  rotate: false
+  xy: 624, 6
+  size: 133, 87
+  orig: 301, 191
+  offset: 83, 46
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_2_fistPalm
+  rotate: false
+  xy: 321, 2
+  size: 93, 91
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+MetalMan-Green/MetalMan-Green_torso
+  rotate: true
+  xy: 762, 5
+  size: 169, 182
+  orig: 169, 182
+  offset: 0, 0
+  index: -1
+PamelaFrost-03/PamelaFrost-03_arm_upper_far
+  rotate: false
+  xy: 946, 7
+  size: 76, 167
+  orig: 299, 282
+  offset: 107, 53
+  index: -1
+PamelaFrost-04/PamelaFrost-04_arm_upper_far
+  rotate: false
+  xy: 946, 7
+  size: 76, 167
+  orig: 299, 282
+  offset: 107, 53
+  index: -1
+PamelaFrost-03/PamelaFrost-03_head_1
+  rotate: false
+  xy: 2, 95
+  size: 378, 378
+  orig: 543, 543
+  offset: 96, 45
+  index: -1
+PamelaFrost-03/PamelaFrost-03_head_3_happy
+  rotate: false
+  xy: 382, 95
+  size: 378, 378
+  orig: 543, 543
+  offset: 96, 46
+  index: -1
+StumpyPete/StumpyPete_hand_near_1_fistBack
+  rotate: false
+  xy: 117, 2
+  size: 101, 91
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+StumpyPete/StumpyPete_torso
+  rotate: false
+  xy: 775, 483
+  size: 221, 195
+  orig: 512, 452
+  offset: 155, 104
+  index: -1
+StumpyPete/StumpyPete_waist
+  rotate: false
+  xy: 416, 3
+  size: 206, 90
+  orig: 283, 216
+  offset: 57, 48
+  index: -1
+Template/Template_head_4_wideEyes
+  rotate: false
+  xy: 2, 475
+  size: 543, 543
+  orig: 543, 543
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_hand_2_fistPalm
+  rotate: false
+  xy: 220, 2
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_2_fistPalm
+  rotate: false
+  xy: 220, 2
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_hand_2_fistPalm
+  rotate: false
+  xy: 220, 2
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1
+
+skeleton17.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_hand_far_2_fistPalm
+  rotate: false
+  xy: 574, 2
+  size: 105, 97
+  orig: 203, 160
+  offset: 51, 29
+  index: -1
+BuckMatthews/BuckMatthews_torso
+  rotate: true
+  xy: 760, 5
+  size: 179, 199
+  orig: 512, 452
+  offset: 169, 110
+  index: -1
+ChuckMatthews/ChuckMatthews_neck
+  rotate: true
+  xy: 961, 45
+  size: 69, 60
+  orig: 130, 110
+  offset: 31, 27
+  index: -1
+TruckMatthews/TruckMatthews_neck
+  rotate: true
+  xy: 961, 45
+  size: 69, 60
+  orig: 130, 110
+  offset: 33, 27
+  index: -1
+Commander-Icestrike/Commander-Icestrike_leg_lower_near_1
+  rotate: false
+  xy: 921, 646
+  size: 65, 194
+  orig: 190, 321
+  offset: 68, 58
+  index: -1
+Dummy/Dummy_hand_2_fistPalm
+  rotate: true
+  xy: 681, 16
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_arm_upper_far
+  rotate: false
+  xy: 921, 842
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_arm_upper_near
+  rotate: false
+  xy: 921, 842
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_far_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-04/PamelaFrost-04_foot_near_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_near_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost/PamelaFrost_foot_near_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-04/PamelaFrost-04_foot_far_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-03/PamelaFrost-03_foot_near_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-03/PamelaFrost-03_foot_far_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost/PamelaFrost_foot_far_2_bent
+  rotate: true
+  xy: 913, 483
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_far
+  rotate: true
+  xy: 2, 2
+  size: 96, 191
+  orig: 194, 325
+  offset: 53, 65
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_lower_near_2
+  rotate: true
+  xy: 381, 2
+  size: 97, 191
+  orig: 194, 325
+  offset: 52, 65
+  index: -1
+PamelaFrost-03/PamelaFrost-03_head_4_wideEyes
+  rotate: false
+  xy: 2, 100
+  size: 377, 377
+  orig: 543, 543
+  offset: 96, 49
+  index: -1
+PamelaFrost-03/PamelaFrost-03_head_5_sad
+  rotate: false
+  xy: 547, 646
+  size: 372, 376
+  orig: 543, 543
+  offset: 99, 38
+  index: -1
+PamelaFrost-03/PamelaFrost-03_torso
+  rotate: true
+  xy: 731, 483
+  size: 161, 180
+  orig: 512, 452
+  offset: 187, 120
+  index: -1
+PamelaFrost-04/PamelaFrost-04_head_1
+  rotate: false
+  xy: 381, 101
+  size: 377, 376
+  orig: 543, 543
+  offset: 97, 45
+  index: -1
+PamelaFrost-04/PamelaFrost-04_torso
+  rotate: true
+  xy: 547, 483
+  size: 161, 182
+  orig: 512, 452
+  offset: 187, 119
+  index: -1
+PamelaFrost/PamelaFrost_neck
+  rotate: false
+  xy: 961, 116
+  size: 61, 68
+  orig: 130, 110
+  offset: 36, 29
+  index: -1
+Template/Template_head_5_sad
+  rotate: false
+  xy: 2, 479
+  size: 543, 543
+  orig: 543, 543
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_head_2_injured
+  rotate: false
+  xy: 760, 186
+  size: 255, 295
+  orig: 543, 543
+  offset: 145, 23
+  index: -1
+TurboTed-Blue/TurboTed-Blue_foot_far_1
+  rotate: false
+  xy: 195, 10
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_foot_near_1
+  rotate: false
+  xy: 195, 10
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+
+skeleton18.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_arm_lower_near
+  rotate: true
+  xy: 165, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+BeardyBuck/BeardyBuck_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost-03/PamelaFrost-03_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost-05/PamelaFrost-05_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+BuckMatthews/BuckMatthews_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost/PamelaFrost_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost-04/PamelaFrost-04_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+PamelaFrost-02/PamelaFrost-02_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+TruckMatthews/TruckMatthews_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+DuckMatthews/DuckMatthews_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+ChuckMatthews/ChuckMatthews_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+GabrielCaine/GabrielCaine_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+YoungBuck/YoungBuck_gun
+  rotate: true
+  xy: 862, 82
+  size: 403, 160
+  orig: 604, 421
+  offset: 91, 105
+  index: -1
+BuckMatthews/BuckMatthews_arm_lower_near
+  rotate: true
+  xy: 292, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_lower_near
+  rotate: true
+  xy: 419, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+TruckMatthews/TruckMatthews_arm_lower_near
+  rotate: true
+  xy: 419, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_arm_upper_far
+  rotate: true
+  xy: 864, 623
+  size: 66, 158
+  orig: 295, 278
+  offset: 110, 58
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_arm_upper_near
+  rotate: false
+  xy: 784, 2
+  size: 66, 159
+  orig: 295, 278
+  offset: 109, 55
+  index: -1
+Commander-Firestrike/Commander-Firestrike_arm_upper_far
+  rotate: true
+  xy: 864, 555
+  size: 66, 158
+  orig: 295, 278
+  offset: 110, 58
+  index: -1
+Commander-Icestrike/Commander-Icestrike_arm_upper_far
+  rotate: true
+  xy: 864, 487
+  size: 66, 158
+  orig: 295, 278
+  offset: 110, 58
+  index: -1
+Dummy/Dummy_foot_far_2_bent
+  rotate: false
+  xy: 865, 913
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_2_bent
+  rotate: false
+  xy: 865, 802
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_3_happy
+  rotate: false
+  xy: 2, 82
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_far_guide
+  rotate: false
+  xy: 784, 163
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_2_guide
+  rotate: false
+  xy: 784, 163
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_gun
+  rotate: false
+  xy: 433, 535
+  size: 429, 174
+  orig: 604, 421
+  offset: 104, 88
+  index: -1
+Fletch/Fletch_torso
+  rotate: false
+  xy: 269, 82
+  size: 246, 231
+  orig: 508, 448
+  offset: 97, 110
+  index: -1
+GabrielCaine/GabrielCaine_arm_lower_near
+  rotate: true
+  xy: 852, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+GabrielCaine/GabrielCaine_leg_upper_near
+  rotate: true
+  xy: 2, 2
+  size: 78, 161
+  orig: 177, 271
+  offset: 49, 53
+  index: -1
+MetalMan-Blue/MetalMan-Blue_foot_far_2_bent
+  rotate: false
+  xy: 865, 691
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_foot_near_2_bent
+  rotate: false
+  xy: 865, 691
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_hand_2_fistPalm
+  rotate: false
+  xy: 673, 3
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_head_3_happy
+  rotate: false
+  xy: 517, 82
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_far_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-04/PamelaFrost-04_foot_near_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_foot_near_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost/PamelaFrost_foot_far_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-05/PamelaFrost-05_foot_far_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-03/PamelaFrost-03_foot_near_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-03/PamelaFrost-03_foot_far_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-04/PamelaFrost-04_foot_far_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-05/PamelaFrost-05_foot_near_1
+  rotate: false
+  xy: 269, 315
+  size: 162, 82
+  orig: 324, 176
+  offset: 79, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_3_happy
+  rotate: false
+  xy: 2, 712
+  size: 430, 310
+  orig: 543, 543
+  offset: 75, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_4_wideEyes
+  rotate: false
+  xy: 434, 711
+  size: 429, 311
+  orig: 543, 543
+  offset: 68, 45
+  index: -1
+PamelaFrost-02/PamelaFrost-02_head_5_sad
+  rotate: false
+  xy: 2, 399
+  size: 429, 311
+  orig: 543, 543
+  offset: 67, 50
+  index: -1
+StumpyPete/StumpyPete_gun_shoot
+  rotate: false
+  xy: 433, 353
+  size: 427, 180
+  orig: 608, 425
+  offset: 140, 109
+  index: -1
+YoungBuck/YoungBuck_arm_lower_near
+  rotate: true
+  xy: 546, 3
+  size: 77, 125
+  orig: 258, 208
+  offset: 87, 43
+  index: -1
+
+skeleton19.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_foot_far_1
+  rotate: false
+  xy: 514, 283
+  size: 187, 84
+  orig: 324, 176
+  offset: 75, 43
+  index: -1
+Assassin/Assassin_head_2_injured
+  rotate: false
+  xy: 414, 696
+  size: 409, 326
+  orig: 543, 543
+  offset: 56, 35
+  index: -1
+Assassin/Assassin_head_5_sad
+  rotate: false
+  xy: 414, 369
+  size: 409, 325
+  orig: 543, 543
+  offset: 63, 42
+  index: -1
+ChuckMatthews/ChuckMatthews_head_4_wideEyes
+  rotate: true
+  xy: 2, 428
+  size: 245, 283
+  orig: 543, 543
+  offset: 153, 38
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_torso
+  rotate: true
+  xy: 822, 69
+  size: 149, 200
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+Commander-Icestrike/Commander-Icestrike_foot_far_2_bent
+  rotate: true
+  xy: 337, 282
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Icestrike/Commander-Icestrike_foot_near_2_bent
+  rotate: true
+  xy: 337, 282
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_near_1
+  rotate: true
+  xy: 822, 2
+  size: 65, 194
+  orig: 190, 321
+  offset: 68, 58
+  index: -1
+Fletch/Fletch_leg_upper_near
+  rotate: false
+  xy: 287, 522
+  size: 125, 151
+  orig: 172, 267
+  offset: 4, 60
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_far_1_fistBack
+  rotate: false
+  xy: 412, 282
+  size: 100, 85
+  orig: 203, 160
+  offset: 54, 47
+  index: -1
+PamelaFrost/PamelaFrost_head_5_sad
+  rotate: false
+  xy: 2, 675
+  size: 410, 347
+  orig: 543, 543
+  offset: 77, 31
+  index: -1
+StumpyPete/StumpyPete_head_1
+  rotate: false
+  xy: 337, 3
+  size: 332, 277
+  orig: 543, 543
+  offset: 101, 24
+  index: -1
+StumpyPete/StumpyPete_pistol_shoot
+  rotate: false
+  xy: 2, 220
+  size: 333, 174
+  orig: 461, 323
+  offset: 127, 53
+  index: -1
+Template/Template_foot_far_2_bent
+  rotate: true
+  xy: 825, 527
+  size: 305, 195
+  orig: 305, 195
+  offset: 0, 0
+  index: -1
+Template/Template_foot_near_2_bent
+  rotate: true
+  xy: 825, 220
+  size: 305, 195
+  orig: 305, 195
+  offset: 0, 0
+  index: -1
+Template/Template_waist
+  rotate: false
+  xy: 2, 2
+  size: 283, 216
+  orig: 283, 216
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_hand_near_3_open
+  rotate: true
+  xy: 287, 396
+  size: 124, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+TurboTed-Blue/TurboTed-Blue_hand_3_open
+  rotate: true
+  xy: 703, 235
+  size: 132, 120
+  orig: 132, 120
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_leg_lower_near_1
+  rotate: false
+  xy: 671, 32
+  size: 149, 201
+  orig: 149, 201
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_torso
+  rotate: true
+  xy: 825, 834
+  size: 188, 196
+  orig: 512, 452
+  offset: 164, 105
+  index: -1
+
+skeleton20.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_head_3_happy
+  rotate: false
+  xy: 2, 696
+  size: 408, 326
+  orig: 543, 543
+  offset: 53, 39
+  index: -1
+Assassin/Assassin_head_4_wideEyes
+  rotate: false
+  xy: 412, 696
+  size: 408, 326
+  orig: 543, 543
+  offset: 57, 41
+  index: -1
+Assassin/Assassin_leg_upper_far
+  rotate: true
+  xy: 389, 618
+  size: 76, 146
+  orig: 177, 271
+  offset: 52, 54
+  index: -1
+BuckMatthews/BuckMatthews_leg_upper_far
+  rotate: false
+  xy: 387, 2
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+YoungBuck/YoungBuck_leg_upper_far
+  rotate: false
+  xy: 387, 2
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+TruckMatthews/TruckMatthews_leg_upper_far
+  rotate: false
+  xy: 387, 2
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+DuckMatthews/DuckMatthews_leg_upper_far
+  rotate: false
+  xy: 387, 2
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BuckMatthews/BuckMatthews_leg_upper_near
+  rotate: false
+  xy: 286, 2
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+DuckMatthews/DuckMatthews_leg_upper_near
+  rotate: false
+  xy: 286, 2
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+YoungBuck/YoungBuck_leg_upper_near
+  rotate: false
+  xy: 286, 2
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+TruckMatthews/TruckMatthews_leg_upper_near
+  rotate: false
+  xy: 286, 2
+  size: 99, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BuckMatthews/BuckMatthews_neck
+  rotate: false
+  xy: 752, 105
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_machineGun_clip
+  rotate: true
+  xy: 389, 551
+  size: 65, 80
+  orig: 234, 206
+  offset: 75, 54
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_machineGun_clip
+  rotate: true
+  xy: 389, 551
+  size: 65, 80
+  orig: 234, 206
+  offset: 75, 54
+  index: -1
+Commander-Firestrike/Commander-Firestrike_machineGun_clip
+  rotate: true
+  xy: 389, 551
+  size: 65, 80
+  orig: 234, 206
+  offset: 75, 54
+  index: -1
+Commander-Icestrike/Commander-Icestrike_machineGun_clip
+  rotate: true
+  xy: 389, 551
+  size: 65, 80
+  orig: 234, 206
+  offset: 75, 54
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_sword_2_swing
+  rotate: false
+  xy: 822, 702
+  size: 200, 320
+  orig: 767, 873
+  offset: 364, 104
+  index: -1
+Commander-Firestrike/Commander-Firestrike_sword_2_swing
+  rotate: false
+  xy: 822, 702
+  size: 200, 320
+  orig: 767, 873
+  offset: 364, 104
+  index: -1
+Commander-Icestrike/Commander-Icestrike_sword_2_swing
+  rotate: false
+  xy: 822, 702
+  size: 200, 320
+  orig: 767, 873
+  offset: 364, 104
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_sword_2_swing
+  rotate: false
+  xy: 822, 702
+  size: 200, 320
+  orig: 767, 873
+  offset: 364, 104
+  index: -1
+Commander-Firestrike/Commander-Firestrike_leg_lower_far
+  rotate: true
+  xy: 752, 3
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Firestrike/Commander-Firestrike_leg_lower_near_2
+  rotate: true
+  xy: 752, 3
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Firestrike/Commander-Firestrike_torso
+  rotate: true
+  xy: 822, 551
+  size: 149, 200
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+Commander-Icestrike/Commander-Icestrike_neck
+  rotate: false
+  xy: 2, 551
+  size: 123, 143
+  orig: 170, 227
+  offset: 26, 81
+  index: -1
+Commander-Icestrike/Commander-Icestrike_torso
+  rotate: true
+  xy: 822, 400
+  size: 149, 200
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_neck
+  rotate: false
+  xy: 127, 551
+  size: 123, 143
+  orig: 170, 227
+  offset: 26, 81
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_torso
+  rotate: true
+  xy: 822, 249
+  size: 149, 200
+  orig: 149, 200
+  offset: 0, 0
+  index: -1
+DuckMatthews/DuckMatthews_torso
+  rotate: true
+  xy: 822, 68
+  size: 179, 199
+  orig: 512, 452
+  offset: 169, 110
+  index: -1
+Dummy/Dummy_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_gun
+  rotate: true
+  xy: 2, 147
+  size: 402, 160
+  orig: 402, 160
+  offset: 0, 0
+  index: -1
+GabrielCaine/GabrielCaine_waist
+  rotate: true
+  xy: 2, 9
+  size: 136, 145
+  orig: 283, 216
+  offset: 75, 37
+  index: -1
+MetalMan-Blue/MetalMan-Blue_waist
+  rotate: false
+  xy: 149, 9
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_waist
+  rotate: false
+  xy: 252, 558
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+PamelaFrost-04/PamelaFrost-04_head_5_sad
+  rotate: false
+  xy: 164, 174
+  size: 372, 375
+  orig: 543, 543
+  offset: 100, 38
+  index: -1
+PamelaFrost/PamelaFrost_foot_near_1
+  rotate: true
+  xy: 487, 2
+  size: 162, 82
+  orig: 324, 176
+  offset: 77, 46
+  index: -1
+PamelaFrost/PamelaFrost_torso
+  rotate: true
+  xy: 571, 3
+  size: 161, 179
+  orig: 512, 452
+  offset: 187, 122
+  index: -1
+TurboTed-Blue/TurboTed-Blue_head_2_injured
+  rotate: false
+  xy: 538, 431
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_head_3_happy
+  rotate: false
+  xy: 538, 166
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+
+skeleton21.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_head_1
+  rotate: true
+  xy: 359, 115
+  size: 301, 354
+  orig: 543, 543
+  offset: 118, 21
+  index: -1
+BeardyBuck/BeardyBuck_head_2_injured
+  rotate: true
+  xy: 359, 721
+  size: 301, 368
+  orig: 543, 543
+  offset: 117, 20
+  index: -1
+BeardyBuck/BeardyBuck_head_3_happy
+  rotate: true
+  xy: 359, 418
+  size: 301, 368
+  orig: 543, 543
+  offset: 116, 16
+  index: -1
+BeardyBuck/BeardyBuck_head_4_wideEyes
+  rotate: true
+  xy: 2, 381
+  size: 301, 355
+  orig: 543, 543
+  offset: 117, 32
+  index: -1
+BeardyBuck/BeardyBuck_head_5_sad
+  rotate: true
+  xy: 2, 78
+  size: 301, 354
+  orig: 543, 543
+  offset: 119, 31
+  index: -1
+BuckMatthews/BuckMatthews_head_2_injured
+  rotate: false
+  xy: 729, 670
+  size: 281, 352
+  orig: 543, 543
+  offset: 129, 43
+  index: -1
+BuckMatthews/BuckMatthews_head_4_wideEyes
+  rotate: false
+  xy: 729, 332
+  size: 284, 336
+  orig: 543, 543
+  offset: 125, 49
+  index: -1
+ChuckMatthews/ChuckMatthews_head_3_happy
+  rotate: true
+  xy: 715, 80
+  size: 250, 297
+  orig: 543, 543
+  offset: 160, 22
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_leg_upper_near
+  rotate: true
+  xy: 207, 10
+  size: 66, 146
+  orig: 172, 267
+  offset: 48, 55
+  index: -1
+Commander-Icestrike/Commander-Icestrike_leg_lower_far
+  rotate: true
+  xy: 2, 13
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Icestrike/Commander-Icestrike_leg_lower_near_2
+  rotate: true
+  xy: 2, 13
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+DuckMatthews/DuckMatthews_head_1
+  rotate: false
+  xy: 2, 684
+  size: 355, 338
+  orig: 543, 543
+  offset: 123, 53
+  index: -1
+Dummy/Dummy_hand_3_open
+  rotate: false
+  xy: 583, 3
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_1_guide
+  rotate: true
+  xy: 698, 2
+  size: 76, 188
+  orig: 76, 188
+  offset: 0, 0
+  index: -1
+PamelaFrost-03/PamelaFrost-03_arm_lower_near
+  rotate: true
+  xy: 888, 9
+  size: 69, 127
+  orig: 258, 208
+  offset: 93, 41
+  index: -1
+PamelaFrost-04/PamelaFrost-04_arm_lower_near
+  rotate: true
+  xy: 888, 9
+  size: 69, 127
+  orig: 258, 208
+  offset: 93, 41
+  index: -1
+StumpyPete/StumpyPete_leg_lower_near_1
+  rotate: true
+  xy: 358, 6
+  size: 107, 223
+  orig: 194, 325
+  offset: 44, 30
+  index: -1
+
+skeleton22.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_hand_far_1_fistBack
+  rotate: false
+  xy: 322, 2
+  size: 106, 103
+  orig: 203, 160
+  offset: 48, 26
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_1_fistBack
+  rotate: true
+  xy: 792, 2
+  size: 104, 89
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_1_fistBack
+  rotate: true
+  xy: 883, 2
+  size: 104, 88
+  orig: 203, 160
+  offset: 52, 47
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_near_1_fistBack
+  rotate: true
+  xy: 430, 2
+  size: 103, 88
+  orig: 203, 160
+  offset: 53, 47
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_near_1_fistBack
+  rotate: true
+  xy: 430, 2
+  size: 103, 88
+  orig: 203, 160
+  offset: 53, 47
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_near_1_fistBack
+  rotate: true
+  xy: 520, 2
+  size: 103, 88
+  orig: 203, 160
+  offset: 53, 47
+  index: -1
+PamelaFrost-05/PamelaFrost-05_head_1
+  rotate: true
+  xy: 2, 427
+  size: 319, 327
+  orig: 543, 543
+  offset: 119, 28
+  index: -1
+PamelaFrost-05/PamelaFrost-05_head_2_injured
+  rotate: true
+  xy: 331, 427
+  size: 319, 327
+  orig: 543, 543
+  offset: 120, 28
+  index: -1
+PamelaFrost-05/PamelaFrost-05_head_3_happy
+  rotate: false
+  xy: 2, 63
+  size: 318, 327
+  orig: 543, 543
+  offset: 121, 29
+  index: -1
+PamelaFrost-05/PamelaFrost-05_head_4_wideEyes
+  rotate: true
+  xy: 322, 107
+  size: 318, 327
+  orig: 543, 543
+  offset: 120, 28
+  index: -1
+PamelaFrost-05/PamelaFrost-05_head_5_sad
+  rotate: true
+  xy: 660, 392
+  size: 319, 327
+  orig: 543, 543
+  offset: 121, 29
+  index: -1
+StumpyPete/StumpyPete_hand_far_2_fistPalm
+  rotate: false
+  xy: 916, 109
+  size: 102, 84
+  orig: 203, 160
+  offset: 55, 46
+  index: -1
+StumpyPete/StumpyPete_hand_near_2_fistPalm
+  rotate: false
+  xy: 916, 109
+  size: 102, 84
+  orig: 203, 160
+  offset: 55, 46
+  index: -1
+StumpyPete/StumpyPete_head_2_injured
+  rotate: false
+  xy: 2, 748
+  size: 338, 274
+  orig: 543, 543
+  offset: 101, 27
+  index: -1
+StumpyPete/StumpyPete_head_4_wideEyes
+  rotate: false
+  xy: 342, 748
+  size: 338, 274
+  orig: 543, 543
+  offset: 101, 27
+  index: -1
+StumpyPete/StumpyPete_head_5_sad
+  rotate: false
+  xy: 682, 713
+  size: 336, 309
+  orig: 543, 543
+  offset: 101, 6
+  index: -1
+TruckMatthews/TruckMatthews_leg_lower_far
+  rotate: false
+  xy: 916, 195
+  size: 106, 195
+  orig: 194, 325
+  offset: 37, 70
+  index: -1
+TruckMatthews/TruckMatthews_leg_lower_near_2
+  rotate: false
+  xy: 916, 195
+  size: 106, 195
+  orig: 194, 325
+  offset: 37, 70
+  index: -1
+TurboTed-Green/TurboTed-Green_head_2_injured
+  rotate: true
+  xy: 651, 108
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_arm_upper_near
+  rotate: true
+  xy: 610, 3
+  size: 102, 180
+  orig: 299, 282
+  offset: 97, 50
+  index: -1
+
+skeleton23.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_torso
+  rotate: true
+  xy: 812, 478
+  size: 217, 209
+  orig: 512, 452
+  offset: 153, 112
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_far_3_open
+  rotate: true
+  xy: 514, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Template/Template_hand_far_3_open
+  rotate: true
+  xy: 514, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_3_open
+  rotate: true
+  xy: 514, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_far_3_open
+  rotate: true
+  xy: 514, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_far_3_open
+  rotate: true
+  xy: 514, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_near_3_open
+  rotate: true
+  xy: 736, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_near_3_open
+  rotate: true
+  xy: 736, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_near_3_open
+  rotate: true
+  xy: 736, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_3_open
+  rotate: true
+  xy: 736, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Template/Template_hand_near_3_open
+  rotate: true
+  xy: 736, 2
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_far
+  rotate: false
+  xy: 958, 38
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_lower_near_2
+  rotate: false
+  xy: 958, 38
+  size: 63, 203
+  orig: 190, 321
+  offset: 62, 49
+  index: -1
+GabrielCaine/GabrielCaine_head_2_injured
+  rotate: false
+  xy: 257, 211
+  size: 255, 281
+  orig: 543, 543
+  offset: 148, 49
+  index: -1
+GabrielCaine/GabrielCaine_torso
+  rotate: false
+  xy: 276, 15
+  size: 187, 194
+  orig: 512, 452
+  offset: 165, 111
+  index: -1
+MetalMan-Green/MetalMan-Green_head_3_happy
+  rotate: true
+  xy: 541, 492
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_hand_far_3_open
+  rotate: true
+  xy: 798, 243
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_hand_near_3_open
+  rotate: true
+  xy: 798, 243
+  size: 233, 220
+  orig: 233, 220
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_leg_lower_near_1
+  rotate: false
+  xy: 822, 697
+  size: 194, 325
+  orig: 194, 325
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_pistol
+  rotate: false
+  xy: 2, 3
+  size: 272, 154
+  orig: 461, 323
+  offset: 126, 53
+  index: -1
+TruckMatthews/TruckMatthews_head_3_happy
+  rotate: false
+  xy: 2, 727
+  size: 250, 295
+  orig: 543, 543
+  offset: 146, 24
+  index: -1
+TurboTed-Blue/TurboTed-Blue_head_1
+  rotate: true
+  xy: 2, 443
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_head_4_wideEyes
+  rotate: true
+  xy: 2, 159
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_head_5_sad
+  rotate: false
+  xy: 514, 237
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_head_3_happy
+  rotate: false
+  xy: 254, 759
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_2_injured
+  rotate: false
+  xy: 538, 759
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_3_happy
+  rotate: false
+  xy: 257, 494
+  size: 282, 263
+  orig: 282, 263
+  offset: 0, 0
+  index: -1
+
+skeleton24.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BeardyBuck/BeardyBuck_torso
+  rotate: false
+  xy: 854, 652
+  size: 168, 182
+  orig: 512, 452
+  offset: 170, 118
+  index: -1
+ChuckMatthews/ChuckMatthews_head_5_sad
+  rotate: true
+  xy: 706, 14
+  size: 246, 282
+  orig: 543, 543
+  offset: 158, 41
+  index: -1
+ChuckMatthews/ChuckMatthews_torso
+  rotate: false
+  xy: 854, 836
+  size: 168, 186
+  orig: 512, 452
+  offset: 170, 117
+  index: -1
+Dummy/Dummy_leg_lower_near_1
+  rotate: false
+  xy: 852, 262
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+GabrielCaine/GabrielCaine_head_1
+  rotate: true
+  xy: 286, 262
+  size: 250, 281
+  orig: 543, 543
+  offset: 147, 47
+  index: -1
+GabrielCaine/GabrielCaine_head_3_happy
+  rotate: true
+  xy: 570, 517
+  size: 250, 281
+  orig: 543, 543
+  offset: 146, 44
+  index: -1
+GabrielCaine/GabrielCaine_head_4_wideEyes
+  rotate: true
+  xy: 2, 5
+  size: 252, 281
+  orig: 543, 543
+  offset: 143, 39
+  index: -1
+GabrielCaine/GabrielCaine_head_5_sad
+  rotate: true
+  xy: 569, 262
+  size: 250, 281
+  orig: 543, 543
+  offset: 148, 39
+  index: -1
+MetalMan-Red/MetalMan-Red_torso
+  rotate: false
+  xy: 853, 468
+  size: 169, 182
+  orig: 169, 182
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_arm_lower_near
+  rotate: true
+  xy: 286, 2
+  size: 258, 208
+  orig: 258, 208
+  offset: 0, 0
+  index: -1
+Template/Template_arm_lower_near
+  rotate: true
+  xy: 496, 2
+  size: 258, 208
+  orig: 258, 208
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_head_1
+  rotate: false
+  xy: 2, 769
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_head_4_wideEyes
+  rotate: false
+  xy: 2, 514
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_head_5_sad
+  rotate: false
+  xy: 286, 769
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_1
+  rotate: false
+  xy: 2, 259
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_4_wideEyes
+  rotate: false
+  xy: 286, 514
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_head_5_sad
+  rotate: false
+  xy: 570, 769
+  size: 282, 253
+  orig: 282, 253
+  offset: 0, 0
+  index: -1
+
+skeleton25.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_arm_lower_near
+  rotate: false
+  xy: 745, 168
+  size: 119, 127
+  orig: 258, 208
+  offset: 72, 46
+  index: -1
+BeardyBuck/BeardyBuck_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-04/PamelaFrost-04_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-02/PamelaFrost-02_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+BuckMatthews/BuckMatthews_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost/PamelaFrost_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-03/PamelaFrost-03_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+PamelaFrost-05/PamelaFrost-05_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+TruckMatthews/TruckMatthews_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+DuckMatthews/DuckMatthews_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+YoungBuck/YoungBuck_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+GabrielCaine/GabrielCaine_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+ChuckMatthews/ChuckMatthews_pistol_shoot
+  rotate: false
+  xy: 525, 641
+  size: 293, 192
+  orig: 457, 319
+  offset: 116, 52
+  index: -1
+BuckMatthews/BuckMatthews_leg_lower_far
+  rotate: true
+  xy: 283, 238
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+BuckMatthews/BuckMatthews_leg_lower_near_2
+  rotate: true
+  xy: 283, 238
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+ChuckMatthews/ChuckMatthews_head_1
+  rotate: true
+  xy: 198, 581
+  size: 245, 284
+  orig: 543, 543
+  offset: 159, 36
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_head_1
+  rotate: false
+  xy: 198, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_head_4_wideEyes
+  rotate: false
+  xy: 198, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_head_3_happy
+  rotate: false
+  xy: 198, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_head_5_sad
+  rotate: false
+  xy: 198, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_head_2_injured
+  rotate: false
+  xy: 198, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_arm_upper_near
+  rotate: true
+  xy: 283, 170
+  size: 66, 159
+  orig: 295, 278
+  offset: 109, 55
+  index: -1
+Commander-Firestrike/Commander-Firestrike_head_1
+  rotate: false
+  xy: 315, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_head_3_happy
+  rotate: false
+  xy: 315, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_head_5_sad
+  rotate: false
+  xy: 315, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_head_2_injured
+  rotate: false
+  xy: 315, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_head_4_wideEyes
+  rotate: false
+  xy: 315, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Firestrike/Commander-Firestrike_leg_upper_far
+  rotate: true
+  xy: 866, 223
+  size: 72, 156
+  orig: 173, 267
+  offset: 52, 58
+  index: -1
+Commander-Icestrike/Commander-Icestrike_head_1
+  rotate: false
+  xy: 432, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Icestrike/Commander-Icestrike_head_4_wideEyes
+  rotate: false
+  xy: 432, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Icestrike/Commander-Icestrike_head_3_happy
+  rotate: false
+  xy: 432, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Icestrike/Commander-Icestrike_head_5_sad
+  rotate: false
+  xy: 432, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Icestrike/Commander-Icestrike_head_2_injured
+  rotate: false
+  xy: 432, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Icestrike/Commander-Icestrike_leg_upper_far
+  rotate: true
+  xy: 866, 149
+  size: 72, 156
+  orig: 173, 267
+  offset: 52, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_1
+  rotate: false
+  xy: 549, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_4_wideEyes
+  rotate: false
+  xy: 549, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_2_injured
+  rotate: false
+  xy: 549, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_5_sad
+  rotate: false
+  xy: 549, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_head_3_happy
+  rotate: false
+  xy: 549, 2
+  size: 115, 164
+  orig: 539, 539
+  offset: 201, 61
+  index: -1
+Dummy/Dummy_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_pistol_shoot
+  rotate: false
+  xy: 525, 835
+  size: 297, 187
+  orig: 297, 187
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_arm_upper_far
+  rotate: false
+  xy: 198, 168
+  size: 83, 175
+  orig: 295, 278
+  offset: 105, 47
+  index: -1
+Fletch/Fletch_head_1
+  rotate: false
+  xy: 472, 168
+  size: 271, 235
+  orig: 539, 539
+  offset: 115, 63
+  index: -1
+Fletch/Fletch_head_4_wideEyes
+  rotate: false
+  xy: 484, 405
+  size: 272, 234
+  orig: 537, 538
+  offset: 113, 63
+  index: -1
+Fletch/Fletch_head_5_sad
+  rotate: false
+  xy: 198, 345
+  size: 272, 234
+  orig: 537, 538
+  offset: 113, 63
+  index: -1
+MetalMan/MetalMan_leg_upper_far
+  rotate: false
+  xy: 666, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_leg_upper_near
+  rotate: false
+  xy: 666, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_waist
+  rotate: true
+  xy: 822, 3
+  size: 144, 113
+  orig: 283, 216
+  offset: 64, 54
+  index: -1
+PamelaFrost/PamelaFrost_arm_lower_far
+  rotate: false
+  xy: 758, 297
+  size: 259, 209
+  orig: 259, 209
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_leg_lower_near_2
+  rotate: false
+  xy: 2, 697
+  size: 194, 325
+  orig: 194, 325
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_arm_lower_near
+  rotate: false
+  xy: 937, 22
+  size: 84, 125
+  orig: 258, 208
+  offset: 82, 40
+  index: -1
+Template/Template_leg_lower_far
+  rotate: false
+  xy: 2, 370
+  size: 194, 325
+  orig: 194, 325
+  offset: 0, 0
+  index: -1
+Template/Template_leg_lower_near_1
+  rotate: false
+  xy: 2, 43
+  size: 194, 325
+  orig: 194, 325
+  offset: 0, 0
+  index: -1
+Template/Template_leg_lower_near_2
+  rotate: true
+  xy: 198, 828
+  size: 194, 325
+  orig: 194, 325
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_leg_upper_far
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_leg_upper_far
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_leg_upper_near
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_upper_far
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_upper_near
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_leg_upper_near
+  rotate: false
+  xy: 744, 3
+  size: 76, 163
+  orig: 76, 163
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_leg_lower_near_1
+  rotate: true
+  xy: 820, 659
+  size: 149, 201
+  orig: 149, 201
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_near_1
+  rotate: true
+  xy: 820, 508
+  size: 149, 201
+  orig: 149, 201
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_leg_lower_far
+  rotate: true
+  xy: 824, 917
+  size: 105, 195
+  orig: 194, 325
+  offset: 43, 70
+  index: -1
+YoungBuck/YoungBuck_leg_lower_near_2
+  rotate: true
+  xy: 824, 810
+  size: 105, 195
+  orig: 194, 325
+  offset: 43, 70
+  index: -1
+
+skeleton26.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_foot_near_2_bent
+  rotate: false
+  xy: 652, 555
+  size: 167, 108
+  orig: 305, 195
+  offset: 64, 43
+  index: -1
+Commander-Icestrike/Commander-Icestrike_arm_upper_near
+  rotate: true
+  xy: 2, 540
+  size: 66, 159
+  orig: 295, 278
+  offset: 109, 55
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_upper_near
+  rotate: true
+  xy: 163, 540
+  size: 66, 159
+  orig: 295, 278
+  offset: 109, 55
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_far_1
+  rotate: true
+  xy: 588, 542
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_near_1
+  rotate: true
+  xy: 588, 542
+  size: 121, 62
+  orig: 320, 172
+  offset: 99, 53
+  index: -1
+Dummy/Dummy_head_1
+  rotate: false
+  xy: 269, 273
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_2_injured
+  rotate: false
+  xy: 273, 6
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_head_4_wideEyes
+  rotate: false
+  xy: 536, 273
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_head_3_happy
+  rotate: false
+  xy: 2, 787
+  size: 271, 234
+  orig: 538, 538
+  offset: 112, 57
+  index: -1
+GabrielCaine/GabrielCaine_leg_upper_far
+  rotate: true
+  xy: 275, 844
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_head_1
+  rotate: false
+  xy: 540, 6
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_leg_lower_near_1
+  rotate: true
+  xy: 807, 146
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_hand_2_fistPalm
+  rotate: true
+  xy: 944, 61
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_head_3_happy
+  rotate: false
+  xy: 2, 269
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_waist
+  rotate: false
+  xy: 807, 8
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_head_3_happy
+  rotate: true
+  xy: 2, 2
+  size: 265, 269
+  orig: 265, 269
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_leg_upper_far
+  rotate: true
+  xy: 548, 844
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_leg_upper_near
+  rotate: true
+  xy: 275, 665
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+Template/Template_arm_lower_far
+  rotate: true
+  xy: 803, 279
+  size: 259, 209
+  orig: 259, 209
+  offset: 0, 0
+  index: -1
+Template/Template_leg_upper_far
+  rotate: true
+  xy: 2, 608
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+Template/Template_leg_upper_near
+  rotate: true
+  xy: 548, 665
+  size: 177, 271
+  orig: 177, 271
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_torso
+  rotate: true
+  xy: 821, 842
+  size: 179, 199
+  orig: 512, 452
+  offset: 169, 110
+  index: -1
+TurboTed-Green/TurboTed-Green_arm_lower_far
+  rotate: false
+  xy: 324, 541
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_arm_lower_near
+  rotate: false
+  xy: 324, 541
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_lower_far
+  rotate: false
+  xy: 412, 541
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_lower_near
+  rotate: false
+  xy: 500, 541
+  size: 86, 122
+  orig: 86, 122
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_far
+  rotate: true
+  xy: 821, 691
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_leg_lower_near_2
+  rotate: true
+  xy: 821, 540
+  size: 149, 193
+  orig: 149, 193
+  offset: 0, 0
+  index: -1
+
+skeleton27.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_leg_lower_near_2
+  rotate: false
+  xy: 536, 595
+  size: 111, 189
+  orig: 194, 325
+  offset: 51, 70
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_1_fistBack
+  rotate: true
+  xy: 916, 524
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_far
+  rotate: false
+  xy: 536, 405
+  size: 106, 188
+  orig: 194, 325
+  offset: 42, 75
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_near_2
+  rotate: false
+  xy: 536, 405
+  size: 106, 188
+  orig: 194, 325
+  offset: 42, 75
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_far
+  rotate: false
+  xy: 917, 822
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_near_2
+  rotate: false
+  xy: 917, 822
+  size: 105, 187
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+GabrielCaine/GabrielCaine_foot_far_2_bent
+  rotate: true
+  xy: 917, 639
+  size: 181, 105
+  orig: 305, 195
+  offset: 59, 42
+  index: -1
+GabrielCaine/GabrielCaine_foot_near_2_bent
+  rotate: true
+  xy: 917, 639
+  size: 181, 105
+  orig: 305, 195
+  offset: 59, 42
+  index: -1
+MetalMan-Blue/MetalMan-Blue_hand_3_open
+  rotate: true
+  xy: 911, 2
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_head_2_injured
+  rotate: false
+  xy: 2, 744
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_head_4_wideEyes
+  rotate: false
+  xy: 2, 477
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_head_5_sad
+  rotate: false
+  xy: 2, 210
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_head_1
+  rotate: false
+  xy: 269, 744
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_head_2_injured
+  rotate: false
+  xy: 269, 477
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_head_4_wideEyes
+  rotate: false
+  xy: 269, 210
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_head_5_sad
+  rotate: false
+  xy: 650, 744
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_head_1
+  rotate: false
+  xy: 649, 477
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_head_2_injured
+  rotate: false
+  xy: 644, 210
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_upper_far
+  rotate: false
+  xy: 911, 297
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_leg_upper_near
+  rotate: false
+  xy: 911, 117
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_leg_lower_far
+  rotate: false
+  xy: 812, 21
+  size: 97, 187
+  orig: 194, 325
+  offset: 51, 71
+  index: -1
+PamelaFrost-03/PamelaFrost-03_leg_lower_near_2
+  rotate: false
+  xy: 812, 21
+  size: 97, 187
+  orig: 194, 325
+  offset: 51, 71
+  index: -1
+PamelaFrost/PamelaFrost_hand_far_1_fistBack
+  rotate: true
+  xy: 2, 5
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_hand_far_2_fistPalm
+  rotate: true
+  xy: 164, 5
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_hand_near_1_fistBack
+  rotate: true
+  xy: 326, 5
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+PamelaFrost/PamelaFrost_hand_near_2_fistPalm
+  rotate: true
+  xy: 488, 5
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+StumpyPete/StumpyPete_leg_lower_near_2
+  rotate: false
+  xy: 536, 786
+  size: 107, 223
+  orig: 194, 325
+  offset: 44, 30
+  index: -1
+Template/Template_hand_far_1_fistBack
+  rotate: true
+  xy: 650, 5
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_leg_lower_near_1
+  rotate: false
+  xy: 536, 215
+  size: 106, 188
+  orig: 194, 325
+  offset: 43, 71
+  index: -1
+
+skeleton28.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_foot_near_1
+  rotate: true
+  xy: 466, 226
+  size: 187, 84
+  orig: 324, 176
+  offset: 76, 43
+  index: -1
+BuckMatthews/BuckMatthews_hand_far_2_fistPalm
+  rotate: false
+  xy: 927, 49
+  size: 95, 86
+  orig: 203, 160
+  offset: 55, 42
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_far_2_bent
+  rotate: false
+  xy: 397, 682
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_foot_near_2_bent
+  rotate: false
+  xy: 397, 682
+  size: 112, 73
+  orig: 301, 191
+  offset: 59, 59
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_upper_far
+  rotate: true
+  xy: 866, 322
+  size: 72, 156
+  orig: 173, 267
+  offset: 52, 58
+  index: -1
+Dummy/Dummy_arm_lower_far
+  rotate: true
+  xy: 908, 608
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_arm_lower_near
+  rotate: true
+  xy: 269, 943
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_hand_1_fistBack
+  rotate: false
+  xy: 511, 682
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_foot_far_1
+  rotate: true
+  xy: 777, 137
+  size: 157, 72
+  orig: 320, 172
+  offset: 82, 42
+  index: -1
+Fletch/Fletch_foot_near_1
+  rotate: true
+  xy: 777, 137
+  size: 157, 72
+  orig: 320, 172
+  offset: 82, 42
+  index: -1
+GabrielCaine/GabrielCaine_foot_far_1
+  rotate: false
+  xy: 698, 510
+  size: 187, 83
+  orig: 324, 176
+  offset: 74, 44
+  index: -1
+GabrielCaine/GabrielCaine_foot_near_1
+  rotate: false
+  xy: 698, 510
+  size: 187, 83
+  orig: 324, 176
+  offset: 74, 44
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_far
+  rotate: true
+  xy: 680, 296
+  size: 113, 184
+  orig: 194, 325
+  offset: 32, 69
+  index: -1
+GabrielCaine/GabrielCaine_leg_lower_near_2
+  rotate: true
+  xy: 680, 296
+  size: 113, 184
+  orig: 194, 325
+  offset: 32, 69
+  index: -1
+MetalMan-Blue/MetalMan-Blue_arm_lower_far
+  rotate: true
+  xy: 908, 534
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_arm_lower_near
+  rotate: true
+  xy: 269, 862
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_hand_1_fistBack
+  rotate: false
+  xy: 607, 682
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_arm_lower_near
+  rotate: true
+  xy: 269, 781
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_foot_far_2_bent
+  rotate: true
+  xy: 666, 137
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_foot_near_2_bent
+  rotate: true
+  xy: 666, 137
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_leg_lower_near_1
+  rotate: false
+  xy: 2, 17
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_arm_lower_near
+  rotate: true
+  xy: 269, 700
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_head_4_wideEyes
+  rotate: false
+  xy: 2, 757
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_head_5_sad
+  rotate: false
+  xy: 2, 490
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_leg_lower_near_1
+  rotate: false
+  xy: 135, 17
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_arm_lower_near
+  rotate: true
+  xy: 552, 396
+  size: 79, 126
+  orig: 79, 126
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_head_1
+  rotate: false
+  xy: 2, 223
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_head_2_injured
+  rotate: false
+  xy: 401, 757
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_head_4_wideEyes
+  rotate: false
+  xy: 668, 757
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_head_5_sad
+  rotate: false
+  xy: 269, 415
+  size: 265, 265
+  orig: 265, 265
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_leg_lower_near_1
+  rotate: false
+  xy: 268, 17
+  size: 131, 204
+  orig: 131, 204
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_waist
+  rotate: false
+  xy: 887, 396
+  size: 135, 136
+  orig: 135, 136
+  offset: 0, 0
+  index: -1
+PamelaFrost-04/PamelaFrost-04_leg_lower_far
+  rotate: false
+  xy: 269, 226
+  size: 97, 187
+  orig: 194, 325
+  offset: 51, 71
+  index: -1
+PamelaFrost-04/PamelaFrost-04_leg_lower_near_2
+  rotate: false
+  xy: 269, 226
+  size: 97, 187
+  orig: 194, 325
+  offset: 51, 71
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_far_2_fistPalm
+  rotate: true
+  xy: 563, 137
+  size: 87, 80
+  orig: 203, 160
+  offset: 59, 45
+  index: -1
+PamelaFrost-05/PamelaFrost-05_leg_lower_far
+  rotate: false
+  xy: 368, 226
+  size: 96, 187
+  orig: 194, 325
+  offset: 50, 76
+  index: -1
+PamelaFrost-05/PamelaFrost-05_leg_lower_near_2
+  rotate: false
+  xy: 368, 226
+  size: 96, 187
+  orig: 194, 325
+  offset: 50, 76
+  index: -1
+PamelaFrost/PamelaFrost_leg_lower_far
+  rotate: true
+  xy: 698, 411
+  size: 97, 185
+  orig: 194, 325
+  offset: 52, 75
+  index: -1
+Template/Template_hand_far_2_fistPalm
+  rotate: true
+  xy: 401, 21
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+Template/Template_hand_near_1_fistBack
+  rotate: true
+  xy: 536, 477
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+Template/Template_hand_near_2_fistPalm
+  rotate: false
+  xy: 703, 595
+  size: 203, 160
+  orig: 203, 160
+  offset: 0, 0
+  index: -1
+TruckMatthews/TruckMatthews_foot_far_2_bent
+  rotate: true
+  xy: 552, 226
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+TruckMatthews/TruckMatthews_foot_near_2_bent
+  rotate: true
+  xy: 552, 226
+  size: 168, 112
+  orig: 305, 195
+  offset: 54, 39
+  index: -1
+TurboTed-Blue/TurboTed-Blue_arm_upper_far
+  rotate: true
+  xy: 563, 2
+  size: 133, 180
+  orig: 133, 180
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_hand_1_fistBack
+  rotate: true
+  xy: 935, 910
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_arm_upper_far
+  rotate: true
+  xy: 745, 2
+  size: 133, 180
+  orig: 133, 180
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_hand_1_fistBack
+  rotate: true
+  xy: 935, 796
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_torso
+  rotate: false
+  xy: 866, 137
+  size: 153, 183
+  orig: 153, 183
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_hand_1_fistBack
+  rotate: true
+  xy: 935, 682
+  size: 112, 87
+  orig: 112, 87
+  offset: 0, 0
+  index: -1
+
+skeleton29.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_hand_near_1_fistBack
+  rotate: false
+  xy: 184, 2
+  size: 106, 102
+  orig: 203, 160
+  offset: 54, 22
+  index: -1
+Assassin/Assassin_hand_near_3_open
+  rotate: true
+  xy: 610, 2
+  size: 117, 125
+  orig: 233, 220
+  offset: 68, 51
+  index: -1
+BeardyBuck/BeardyBuck_arm_lower_far
+  rotate: true
+  xy: 853, 2
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+YoungBuck/YoungBuck_arm_lower_far
+  rotate: true
+  xy: 853, 2
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+BeardyBuck/BeardyBuck_arm_upper_far
+  rotate: false
+  xy: 364, 661
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+BuckMatthews/BuckMatthews_arm_upper_far
+  rotate: false
+  xy: 364, 661
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+BeardyBuck/BeardyBuck_leg_lower_far
+  rotate: false
+  xy: 136, 472
+  size: 107, 181
+  orig: 194, 325
+  offset: 49, 79
+  index: -1
+BuckMatthews/BuckMatthews_arm_upper_near
+  rotate: false
+  xy: 383, 843
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_upper_far
+  rotate: false
+  xy: 361, 295
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_upper_near
+  rotate: false
+  xy: 438, 480
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_1_fistBack
+  rotate: true
+  xy: 292, 4
+  size: 102, 80
+  orig: 203, 160
+  offset: 53, 47
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_far_1_fistBack
+  rotate: false
+  xy: 960, 949
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_hand_near_1_fistBack
+  rotate: false
+  xy: 960, 949
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_far_1_fistBack
+  rotate: false
+  xy: 960, 874
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Firestrike/Commander-Firestrike_hand_near_1_fistBack
+  rotate: false
+  xy: 960, 874
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_arm_upper_far
+  rotate: false
+  xy: 873, 504
+  size: 66, 158
+  orig: 295, 278
+  offset: 110, 58
+  index: -1
+DuckMatthews/DuckMatthews_arm_lower_near
+  rotate: false
+  xy: 737, 177
+  size: 88, 124
+  orig: 258, 208
+  offset: 82, 44
+  index: -1
+Dummy/Dummy_foot_far_1
+  rotate: true
+  xy: 941, 675
+  size: 167, 81
+  orig: 167, 81
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_foot_near_1
+  rotate: true
+  xy: 941, 414
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_far
+  rotate: false
+  xy: 564, 663
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_leg_lower_near_2
+  rotate: false
+  xy: 583, 844
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_torso
+  rotate: false
+  xy: 2, 104
+  size: 169, 181
+  orig: 169, 181
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_arm_lower_far
+  rotate: true
+  xy: 737, 2
+  size: 70, 114
+  orig: 254, 204
+  offset: 90, 49
+  index: -1
+Fletch/Fletch_hand_far_3_open
+  rotate: true
+  xy: 827, 227
+  size: 109, 112
+  orig: 228, 216
+  offset: 71, 55
+  index: -1
+Fletch/Fletch_hand_near_3_open
+  rotate: true
+  xy: 827, 227
+  size: 109, 112
+  orig: 228, 216
+  offset: 71, 55
+  index: -1
+GabrielCaine/GabrielCaine_arm_upper_far
+  rotate: false
+  xy: 464, 662
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+GabrielCaine/GabrielCaine_arm_upper_near
+  rotate: false
+  xy: 483, 843
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+MetalMan-Blue/MetalMan-Blue_foot_far_1
+  rotate: true
+  xy: 941, 244
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_foot_near_1
+  rotate: true
+  xy: 941, 74
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_leg_lower_far
+  rotate: false
+  xy: 471, 119
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_leg_lower_near_2
+  rotate: false
+  xy: 561, 301
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_arm_upper_far
+  rotate: true
+  xy: 2, 3
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_arm_upper_near
+  rotate: true
+  xy: 2, 3
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_hand_3_open
+  rotate: false
+  xy: 374, 2
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_leg_lower_far
+  rotate: false
+  xy: 629, 483
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_leg_lower_near_2
+  rotate: false
+  xy: 629, 483
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_arm_upper_far
+  rotate: false
+  xy: 245, 475
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_arm_upper_near
+  rotate: false
+  xy: 245, 475
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_hand_3_open
+  rotate: true
+  xy: 829, 112
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_leg_lower_far
+  rotate: false
+  xy: 697, 664
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_leg_lower_near_2
+  rotate: false
+  xy: 716, 844
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_arm_upper_far
+  rotate: false
+  xy: 263, 658
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_arm_upper_near
+  rotate: false
+  xy: 263, 658
+  size: 99, 180
+  orig: 99, 180
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_leg_lower_far
+  rotate: false
+  xy: 604, 121
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_leg_lower_near_2
+  rotate: false
+  xy: 694, 303
+  size: 131, 178
+  orig: 131, 178
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_torso
+  rotate: false
+  xy: 2, 655
+  size: 169, 182
+  orig: 169, 182
+  offset: 0, 0
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_far_2_fistPalm
+  rotate: true
+  xy: 941, 584
+  size: 89, 81
+  orig: 203, 160
+  offset: 58, 45
+  index: -1
+PamelaFrost-03/PamelaFrost-03_leg_lower_near_1
+  rotate: false
+  xy: 291, 842
+  size: 90, 180
+  orig: 194, 325
+  offset: 52, 75
+  index: -1
+PamelaFrost-03/PamelaFrost-03_leg_upper_far
+  rotate: false
+  xy: 762, 484
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-04/PamelaFrost-04_leg_upper_far
+  rotate: false
+  xy: 762, 484
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_leg_upper_near
+  rotate: false
+  xy: 830, 664
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-04/PamelaFrost-04_leg_upper_near
+  rotate: false
+  xy: 830, 664
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_waist
+  rotate: true
+  xy: 827, 338
+  size: 144, 112
+  orig: 283, 216
+  offset: 64, 54
+  index: -1
+PamelaFrost-04/PamelaFrost-04_waist
+  rotate: true
+  xy: 827, 338
+  size: 144, 112
+  orig: 283, 216
+  offset: 64, 54
+  index: -1
+PamelaFrost-05/PamelaFrost-05_waist
+  rotate: true
+  xy: 827, 338
+  size: 144, 112
+  orig: 283, 216
+  offset: 64, 54
+  index: -1
+PamelaFrost-04/PamelaFrost-04_leg_lower_near_1
+  rotate: false
+  xy: 346, 476
+  size: 90, 180
+  orig: 194, 325
+  offset: 52, 75
+  index: -1
+PamelaFrost-05/PamelaFrost-05_leg_lower_near_1
+  rotate: false
+  xy: 538, 481
+  size: 89, 179
+  orig: 194, 325
+  offset: 54, 78
+  index: -1
+PamelaFrost-05/PamelaFrost-05_leg_upper_far
+  rotate: false
+  xy: 849, 844
+  size: 109, 178
+  orig: 177, 271
+  offset: 27, 55
+  index: -1
+StumpyPete/StumpyPete_hand_far_1_fistBack
+  rotate: true
+  xy: 737, 74
+  size: 101, 90
+  orig: 203, 160
+  offset: 52, 46
+  index: -1
+TruckMatthews/TruckMatthews_arm_upper_far
+  rotate: false
+  xy: 371, 114
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+TruckMatthews/TruckMatthews_arm_upper_near
+  rotate: false
+  xy: 461, 299
+  size: 98, 179
+  orig: 299, 282
+  offset: 99, 50
+  index: -1
+TurboTed-Blue/TurboTed-Blue_arm_upper_near
+  rotate: false
+  xy: 157, 840
+  size: 132, 182
+  orig: 132, 182
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_waist
+  rotate: true
+  xy: 489, 2
+  size: 115, 119
+  orig: 115, 119
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_arm_upper_near
+  rotate: false
+  xy: 2, 471
+  size: 132, 182
+  orig: 132, 182
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_foot_far_1
+  rotate: true
+  xy: 173, 657
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_foot_near_1
+  rotate: true
+  xy: 173, 657
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_foot_far_2_bent
+  rotate: true
+  xy: 263, 108
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_foot_near_2_bent
+  rotate: true
+  xy: 263, 108
+  size: 180, 106
+  orig: 180, 106
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_upper_far
+  rotate: false
+  xy: 226, 290
+  size: 133, 180
+  orig: 133, 180
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_arm_upper_near
+  rotate: false
+  xy: 2, 287
+  size: 132, 182
+  orig: 132, 182
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_far_1
+  rotate: true
+  xy: 136, 289
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_foot_near_1
+  rotate: true
+  xy: 173, 106
+  size: 181, 88
+  orig: 181, 88
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_torso
+  rotate: false
+  xy: 2, 839
+  size: 153, 183
+  orig: 153, 183
+  offset: 0, 0
+  index: -1
+
+skeleton30.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Assassin/Assassin_arm_upper_far
+  rotate: true
+  xy: 165, 823
+  size: 90, 178
+  orig: 299, 282
+  offset: 101, 50
+  index: -1
+Assassin/Assassin_foot_far_2_bent
+  rotate: true
+  xy: 2, 140
+  size: 167, 107
+  orig: 305, 195
+  offset: 64, 41
+  index: -1
+Assassin/Assassin_hand_far_3_open
+  rotate: true
+  xy: 867, 904
+  size: 118, 125
+  orig: 233, 220
+  offset: 71, 48
+  index: -1
+Assassin/Assassin_hand_near_2_fistPalm
+  rotate: false
+  xy: 735, 525
+  size: 105, 97
+  orig: 203, 160
+  offset: 48, 34
+  index: -1
+Assassin/Assassin_leg_upper_near
+  rotate: false
+  xy: 122, 15
+  size: 76, 146
+  orig: 177, 271
+  offset: 51, 53
+  index: -1
+BeardyBuck/BeardyBuck_hand_far_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+YoungBuck/YoungBuck_hand_far_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+YoungBuck/YoungBuck_hand_near_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BuckMatthews/BuckMatthews_hand_far_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BeardyBuck/BeardyBuck_hand_near_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BuckMatthews/BuckMatthews_hand_near_3_open
+  rotate: false
+  xy: 2, 13
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+BeardyBuck/BeardyBuck_leg_upper_far
+  rotate: true
+  xy: 517, 814
+  size: 98, 169
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BeardyBuck/BeardyBuck_leg_upper_near
+  rotate: true
+  xy: 688, 813
+  size: 99, 169
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+BeardyBuck/BeardyBuck_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost-03/PamelaFrost-03_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost-04/PamelaFrost-04_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+GabrielCaine/GabrielCaine_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+YoungBuck/YoungBuck_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost-05/PamelaFrost-05_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+PamelaFrost/PamelaFrost_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+DuckMatthews/DuckMatthews_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+ChuckMatthews/ChuckMatthews_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+TruckMatthews/TruckMatthews_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+BuckMatthews/BuckMatthews_machineGun_clip
+  rotate: false
+  xy: 527, 2
+  size: 89, 92
+  orig: 234, 206
+  offset: 75, 53
+  index: -1
+BuckMatthews/BuckMatthews_arm_lower_far
+  rotate: true
+  xy: 493, 206
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+BuckMatthews/BuckMatthews_hand_far_1_fistBack
+  rotate: false
+  xy: 606, 203
+  size: 108, 84
+  orig: 203, 160
+  offset: 50, 45
+  index: -1
+BuckMatthews/BuckMatthews_hand_near_1_fistBack
+  rotate: true
+  xy: 728, 624
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+BuckMatthews/BuckMatthews_leg_lower_near_1
+  rotate: false
+  xy: 2, 488
+  size: 106, 178
+  orig: 194, 325
+  offset: 43, 73
+  index: -1
+ChuckMatthews/ChuckMatthews_arm_lower_far
+  rotate: true
+  xy: 599, 404
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+TruckMatthews/TruckMatthews_arm_lower_far
+  rotate: true
+  xy: 599, 404
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_2_fistPalm
+  rotate: true
+  xy: 881, 261
+  size: 93, 84
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_far_3_open
+  rotate: false
+  xy: 277, 384
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+TruckMatthews/TruckMatthews_hand_far_3_open
+  rotate: false
+  xy: 277, 384
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_3_open
+  rotate: false
+  xy: 277, 384
+  size: 118, 125
+  orig: 233, 220
+  offset: 68, 49
+  index: -1
+ChuckMatthews/ChuckMatthews_hand_near_1_fistBack
+  rotate: false
+  xy: 734, 418
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+TruckMatthews/TruckMatthews_hand_near_1_fistBack
+  rotate: false
+  xy: 734, 418
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_lower_near_1
+  rotate: false
+  xy: 2, 309
+  size: 106, 177
+  orig: 194, 325
+  offset: 46, 77
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_upper_far
+  rotate: true
+  xy: 345, 816
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+ChuckMatthews/ChuckMatthews_leg_upper_near
+  rotate: true
+  xy: 345, 816
+  size: 98, 170
+  orig: 177, 271
+  offset: 38, 51
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_pistol
+  rotate: false
+  xy: 112, 621
+  size: 166, 90
+  orig: 457, 319
+  offset: 94, 58
+  index: -1
+Commander-Icestrike/Commander-Icestrike_pistol
+  rotate: false
+  xy: 112, 621
+  size: 166, 90
+  orig: 457, 319
+  offset: 94, 58
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_pistol
+  rotate: false
+  xy: 112, 621
+  size: 166, 90
+  orig: 457, 319
+  offset: 94, 58
+  index: -1
+Commander-Firestrike/Commander-Firestrike_pistol
+  rotate: false
+  xy: 112, 621
+  size: 166, 90
+  orig: 457, 319
+  offset: 94, 58
+  index: -1
+Commander-Darkstrike/Commander-Darkstrike_waist
+  rotate: true
+  xy: 842, 579
+  size: 105, 106
+  orig: 279, 212
+  offset: 90, 47
+  index: -1
+Commander-Firestrike/Commander-Firestrike_leg_upper_near
+  rotate: true
+  xy: 269, 511
+  size: 66, 146
+  orig: 172, 267
+  offset: 48, 55
+  index: -1
+Commander-Firestrike/Commander-Firestrike_waist
+  rotate: false
+  xy: 849, 356
+  size: 105, 106
+  orig: 279, 212
+  offset: 90, 47
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_far_1_fistBack
+  rotate: false
+  xy: 614, 739
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Icestrike/Commander-Icestrike_hand_near_1_fistBack
+  rotate: false
+  xy: 614, 739
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Icestrike/Commander-Icestrike_leg_upper_near
+  rotate: true
+  xy: 277, 316
+  size: 66, 146
+  orig: 172, 267
+  offset: 48, 55
+  index: -1
+Commander-Icestrike/Commander-Icestrike_waist
+  rotate: true
+  xy: 489, 99
+  size: 105, 106
+  orig: 279, 212
+  offset: 90, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_far_1_fistBack
+  rotate: false
+  xy: 950, 605
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_hand_near_1_fistBack
+  rotate: false
+  xy: 950, 605
+  size: 62, 73
+  orig: 199, 156
+  offset: 65, 47
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_leg_upper_near
+  rotate: false
+  xy: 425, 236
+  size: 66, 146
+  orig: 172, 267
+  offset: 48, 55
+  index: -1
+Commander-Stonestrike/Commander-Stonestrike_waist
+  rotate: true
+  xy: 597, 96
+  size: 105, 106
+  orig: 279, 212
+  offset: 90, 47
+  index: -1
+DuckMatthews/DuckMatthews_leg_lower_near_1
+  rotate: true
+  xy: 345, 916
+  size: 106, 178
+  orig: 194, 325
+  offset: 43, 73
+  index: -1
+Dummy/Dummy_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+TurboTed-Green/TurboTed-Green_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+MetalMan-Blue/MetalMan-Blue_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+TurboTed-Blue/TurboTed-Blue_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_machineGun_clip
+  rotate: false
+  xy: 791, 261
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+Dummy/Dummy_neck
+  rotate: true
+  xy: 950, 533
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+Fletch/Fletch_arm_upper_near
+  rotate: false
+  xy: 110, 333
+  size: 83, 175
+  orig: 295, 278
+  offset: 105, 47
+  index: -1
+Fletch/Fletch_hand_far_1_fistBack
+  rotate: false
+  xy: 200, 2
+  size: 77, 76
+  orig: 199, 156
+  offset: 62, 47
+  index: -1
+Fletch/Fletch_hand_near_1_fistBack
+  rotate: false
+  xy: 200, 2
+  size: 77, 76
+  orig: 199, 156
+  offset: 62, 47
+  index: -1
+GabrielCaine/GabrielCaine_arm_lower_far
+  rotate: false
+  xy: 950, 680
+  size: 70, 111
+  orig: 259, 209
+  offset: 91, 50
+  index: -1
+GabrielCaine/GabrielCaine_hand_far_1_fistBack
+  rotate: false
+  xy: 424, 2
+  size: 101, 88
+  orig: 203, 160
+  offset: 54, 46
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_1_fistBack
+  rotate: true
+  xy: 849, 464
+  size: 113, 99
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+GabrielCaine/GabrielCaine_hand_near_2_fistPalm
+  rotate: false
+  xy: 618, 4
+  size: 93, 90
+  orig: 203, 160
+  offset: 56, 43
+  index: -1
+MetalMan-Blue/MetalMan-Blue_neck
+  rotate: false
+  xy: 950, 469
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_arm_lower_far
+  rotate: true
+  xy: 678, 739
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_foot_far_1
+  rotate: true
+  xy: 195, 340
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_foot_near_1
+  rotate: true
+  xy: 195, 340
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_hand_1_fistBack
+  rotate: true
+  xy: 711, 308
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+MetalMan-Green/MetalMan-Green_neck
+  rotate: true
+  xy: 956, 397
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_arm_lower_far
+  rotate: true
+  xy: 619, 550
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_foot_far_1
+  rotate: true
+  xy: 111, 163
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_foot_near_1
+  rotate: true
+  xy: 111, 163
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_foot_far_2_bent
+  rotate: false
+  xy: 859, 793
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_foot_near_2_bent
+  rotate: false
+  xy: 859, 793
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_hand_1_fistBack
+  rotate: true
+  xy: 716, 212
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_hand_2_fistPalm
+  rotate: false
+  xy: 898, 4
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
+MetalMan-Red/MetalMan-Red_neck
+  rotate: true
+  xy: 425, 164
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_arm_lower_far
+  rotate: true
+  xy: 618, 476
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_foot_far_1
+  rotate: false
+  xy: 275, 734
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_foot_far_2_bent
+  rotate: false
+  xy: 110, 510
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_foot_near_2_bent
+  rotate: false
+  xy: 110, 510
+  size: 157, 109
+  orig: 157, 109
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_foot_near_1
+  rotate: false
+  xy: 280, 652
+  size: 168, 80
+  orig: 168, 80
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_hand_3_open
+  rotate: false
+  xy: 310, 204
+  size: 113, 110
+  orig: 113, 110
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_neck
+  rotate: true
+  xy: 425, 92
+  size: 70, 62
+  orig: 70, 62
+  offset: 0, 0
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_upper_far
+  rotate: true
+  xy: 280, 579
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_arm_upper_near
+  rotate: true
+  xy: 450, 663
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_2_fistPalm
+  rotate: false
+  xy: 795, 175
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_2_fistPalm
+  rotate: false
+  xy: 795, 175
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_far_3_open
+  rotate: false
+  xy: 200, 80
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_near_3_open
+  rotate: false
+  xy: 200, 80
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_far_3_open
+  rotate: false
+  xy: 200, 80
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-02/PamelaFrost-02_hand_near_3_open
+  rotate: false
+  xy: 619, 624
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_arm_upper_near
+  rotate: true
+  xy: 445, 736
+  size: 76, 167
+  orig: 299, 282
+  offset: 107, 53
+  index: -1
+PamelaFrost/PamelaFrost_arm_upper_near
+  rotate: true
+  xy: 445, 736
+  size: 76, 167
+  orig: 299, 282
+  offset: 107, 53
+  index: -1
+PamelaFrost-04/PamelaFrost-04_arm_upper_near
+  rotate: true
+  xy: 445, 736
+  size: 76, 167
+  orig: 299, 282
+  offset: 107, 53
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_far_3_open
+  rotate: false
+  xy: 602, 289
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_near_3_open
+  rotate: false
+  xy: 602, 289
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_near_3_open
+  rotate: false
+  xy: 602, 289
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_far_3_open
+  rotate: false
+  xy: 602, 289
+  size: 107, 113
+  orig: 233, 220
+  offset: 74, 55
+  index: -1
+PamelaFrost-03/PamelaFrost-03_hand_near_2_fistPalm
+  rotate: false
+  xy: 888, 175
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_far_2_fistPalm
+  rotate: true
+  xy: 898, 83
+  size: 90, 82
+  orig: 203, 160
+  offset: 57, 44
+  index: -1
+PamelaFrost-04/PamelaFrost-04_hand_near_2_fistPalm
+  rotate: false
+  xy: 805, 89
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-05/PamelaFrost-05_arm_upper_far
+  rotate: true
+  xy: 450, 590
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-05/PamelaFrost-05_arm_upper_near
+  rotate: true
+  xy: 449, 517
+  size: 71, 167
+  orig: 299, 282
+  offset: 112, 53
+  index: -1
+PamelaFrost-05/PamelaFrost-05_foot_far_2_bent
+  rotate: false
+  xy: 112, 713
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-05/PamelaFrost-05_foot_near_2_bent
+  rotate: false
+  xy: 112, 713
+  size: 161, 108
+  orig: 305, 195
+  offset: 62, 38
+  index: -1
+PamelaFrost-05/PamelaFrost-05_hand_near_2_fistPalm
+  rotate: false
+  xy: 805, 3
+  size: 91, 84
+  orig: 203, 160
+  offset: 57, 43
+  index: -1
+PamelaFrost-05/PamelaFrost-05_leg_upper_near
+  rotate: false
+  xy: 2, 668
+  size: 108, 178
+  orig: 177, 271
+  offset: 28, 51
+  index: -1
+PamelaFrost-05/PamelaFrost-05_torso
+  rotate: false
+  xy: 2, 848
+  size: 161, 174
+  orig: 512, 452
+  offset: 187, 127
+  index: -1
+StumpyPete/StumpyPete_arm_lower_far
+  rotate: false
+  xy: 397, 384
+  size: 83, 125
+  orig: 259, 209
+  offset: 83, 39
+  index: -1
+StumpyPete/StumpyPete_arm_upper_far
+  rotate: true
+  xy: 525, 914
+  size: 108, 169
+  orig: 299, 282
+  offset: 86, 62
+  index: -1
+StumpyPete/StumpyPete_arm_upper_near
+  rotate: true
+  xy: 696, 914
+  size: 108, 169
+  orig: 299, 282
+  offset: 86, 62
+  index: -1
+StumpyPete/StumpyPete_hand_far_3_open
+  rotate: false
+  xy: 493, 278
+  size: 107, 116
+  orig: 233, 220
+  offset: 70, 54
+  index: -1
+StumpyPete/StumpyPete_hand_near_3_open
+  rotate: false
+  xy: 493, 278
+  size: 107, 116
+  orig: 233, 220
+  offset: 70, 54
+  index: -1
+TruckMatthews/TruckMatthews_hand_far_1_fistBack
+  rotate: false
+  xy: 310, 113
+  size: 113, 89
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+TruckMatthews/TruckMatthews_hand_far_2_fistPalm
+  rotate: true
+  xy: 705, 105
+  size: 96, 88
+  orig: 203, 160
+  offset: 55, 41
+  index: -1
+TruckMatthews/TruckMatthews_hand_near_2_fistPalm
+  rotate: true
+  xy: 713, 7
+  size: 96, 90
+  orig: 203, 160
+  offset: 55, 41
+  index: -1
+TurboTed-Green/TurboTed-Green_waist
+  rotate: false
+  xy: 482, 396
+  size: 115, 119
+  orig: 115, 119
+  offset: 0, 0
+  index: -1
+TurboTed/TurboTed_waist
+  rotate: false
+  xy: 193, 195
+  size: 115, 119
+  orig: 115, 119
+  offset: 0, 0
+  index: -1
+YoungBuck/YoungBuck_hand_far_1_fistBack
+  rotate: false
+  xy: 309, 22
+  size: 113, 89
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+YoungBuck/YoungBuck_hand_near_1_fistBack
+  rotate: false
+  xy: 835, 686
+  size: 113, 105
+  orig: 203, 160
+  offset: 48, 42
+  index: -1
+YoungBuck/YoungBuck_leg_lower_near_1
+  rotate: true
+  xy: 165, 915
+  size: 107, 178
+  orig: 194, 325
+  offset: 44, 75
+  index: -1
+
+skeleton31.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+MetalMan/MetalMan_hand_1_fistBack
+  rotate: false
+  xy: 2, 6
+  size: 94, 73
+  orig: 94, 73
+  offset: 0, 0
+  index: -1
+MetalMan/MetalMan_hand_2_fistPalm
+  rotate: false
+  xy: 98, 2
+  size: 83, 77
+  orig: 83, 77
+  offset: 0, 0
+  index: -1
