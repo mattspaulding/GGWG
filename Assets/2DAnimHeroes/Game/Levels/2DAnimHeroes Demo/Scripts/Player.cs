@@ -2,6 +2,7 @@
 using System.Collections;
 using Spine.Unity;
 using UnityStandardAssets.CrossPlatformInput;
+using System.Linq;
 
 public class Player : MonoBehaviour
 {
@@ -446,12 +447,12 @@ public class Player : MonoBehaviour
 		if (isFollower) {
 			GameObject[] targets;
 			if (isEnemy)
-				targets = GameObject.FindGameObjectsWithTag ("Player");
+				targets = GameObject.FindGameObjectsWithTag("Player").Union(GameObject.FindGameObjectsWithTag("Follower")).ToArray();
 			else
-				targets =	GameObject.FindGameObjectsWithTag ("Target");
+				targets =	GameObject.FindGameObjectsWithTag ("Enemy");
 
 			foreach (var target in targets) {
-				if (target != null) {
+				if (target != null&& !target.GetComponent<Player>().isDead) {
 					if (Mathf.Abs (target.transform.position.x - transform.position.x) < 10 && Mathf.Abs (target.transform.position.y - transform.position.y) < 10) {
 						Vector3 lookPos = new Vector3 (target.transform.position.x, target.transform.position.y, 10);
 					
