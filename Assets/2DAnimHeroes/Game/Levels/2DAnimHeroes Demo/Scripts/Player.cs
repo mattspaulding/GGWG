@@ -1415,39 +1415,85 @@ public class Player : MonoBehaviour
 	void Follow ()
 	{
 		if (isFollower && isActive) {
-			var target = GameObject.FindWithTag ("Player").transform;
+			var playerTranform = GameObject.FindWithTag ("Player").transform;
 
-			if (aiMoveLeft) {
+            if (Mathf.Abs(playerTranform.localPosition.x - transform.localPosition.x) < 30)
+            {
+                jumpHeight = 900;
+            }
+
+
+            if (aiMoveLeft) {
 				doMoveLeft = true;
-				velocity.x = -runSpeed;
-			} else if (aiMoveRight) {
+                velocity.x = -runSpeed;
+            }
+            else if (aiMoveRight) {
 				doMoveRight = true;
-				velocity.x = runSpeed;
-			} else if (Mathf.Abs (target.localPosition.x - transform.localPosition.x) > FollowPosition + 4) {
-				if (target.localPosition.x < transform.localPosition.x) {
-					doMoveLeft = true;
-					velocity.x = -runSpeed;
-				}
-				if (target.localPosition.x > transform.localPosition.x) {
-					doMoveRight = true;
-					velocity.x = runSpeed;
-				}
-			} else if (Mathf.Abs (target.localPosition.x - transform.localPosition.x) > FollowPosition) {
-				if (target.localPosition.x < transform.localPosition.x) {
-					doMoveLeft = true;
-					doWalkLeft = true;
-					velocity.x = -walkSpeed;
-				}
-				if (target.localPosition.x > transform.localPosition.x) {
-					doMoveRight = true;
-					doWalkRight = true;
-					velocity.x = walkSpeed;
-				}
-				jumpHeight = 900;
-			} else {
-				jumpHeight = 900;
-				//currentState = PlayerStates.idle;
-			}
+                velocity.x = runSpeed;
+            }
+            else if (playerTranform.rotation == Quaternion.identity) // facing right
+            {
+                if (playerTranform.localPosition.x + FollowPosition > transform.localPosition.x)
+                {
+                    doMoveRight = true;
+                    velocity.x = runSpeed;
+                }
+                else if (playerTranform.localPosition.x + FollowPosition < transform.localPosition.x - 1)
+                {
+                    doMoveLeft = true;
+                    velocity.x = -runSpeed;
+                }
+                else
+                {
+                    currentState = PlayerStates.idle;
+                }
+            }
+            else // facing left
+            {
+                if (playerTranform.localPosition.x - FollowPosition > transform.localPosition.x+1)
+                {
+                    doMoveRight = true;
+                    velocity.x = runSpeed;
+                }
+                else if (playerTranform.localPosition.x - FollowPosition < transform.localPosition.x)
+                {
+                    doMoveLeft = true;
+                    velocity.x = -runSpeed;
+                }
+                else
+                {
+                    currentState = PlayerStates.idle;
+
+                }
+                //else if (Mathf.Abs(target.localPosition.x - transform.localPosition.x) > FollowPosition + 4)
+                //{
+                //    if (target.localPosition.x < transform.localPosition.x)
+                //    {
+                //        doMoveLeft = true;
+                //        velocity.x = -runSpeed;
+                //    }
+                //    if (target.localPosition.x > transform.localPosition.x)
+                //    {
+                //        doMoveRight = true;
+                //        velocity.x = runSpeed;
+                //    }
+                //}
+                //        else if (Mathf.Abs (target.localPosition.x - transform.localPosition.x) > FollowPosition) {
+                //if (target.localPosition.x < transform.localPosition.x) {
+                //	doMoveLeft = true;
+                //	doWalkLeft = true;
+                //	velocity.x = -walkSpeed;
+                //}
+                //if (target.localPosition.x > transform.localPosition.x) {
+                //	doMoveRight = true;
+                //	doWalkRight = true;
+                //	velocity.x = walkSpeed;
+                //}
+            }
+   //         else {
+			////	jumpHeight = 900;
+			//	//currentState = PlayerStates.idle;
+			//}
 
 		}
 	}
