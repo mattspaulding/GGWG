@@ -1002,7 +1002,7 @@ public class Player : MonoBehaviour
             else if (currentState == PlayerStates.jumping || currentState == PlayerStates.wallJump || currentState == PlayerStates.doubleJump)
             {
                 velocity.x = jumpSpeed;
-                if (wallTouch && velocity.x != 0 && !isFollower)
+                if (wallTouch && velocity.x != 0 )
                 {
                     if (jumpSpeed * -1 > 0)
                         transform.localRotation = Quaternion.identity;
@@ -1040,7 +1040,7 @@ public class Player : MonoBehaviour
             {
                 if (!wallTouch)
                     currentState = PlayerStates.falling;
-                if (CrossPlatformInputManager.GetButtonDown("Jump") && !isFollower)
+                if (CrossPlatformInputManager.GetButtonDown("Jump") || isFollower)
                 {
                     if (jumpSpeed > 0 && jumpSpeed < runSpeed)
                         jumpSpeed = runSpeed;
