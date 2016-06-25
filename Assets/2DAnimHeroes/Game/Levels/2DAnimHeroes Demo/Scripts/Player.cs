@@ -216,7 +216,8 @@ public class Player : MonoBehaviour
 
 
 		if ((!isEnemy && collider.tag == "BulletEnemy") || (isEnemy && collider.tag == "Bullet") || collider.tag == "Sword") {
-			if (health <= 0) {
+
+            if (health <= 0) {
 				animation.state.SetAnimation (0, "hitBig", false);
 				GetComponent<BoxCollider2D> ().enabled = false;
 			GetComponent<CircleCollider2D> ().enabled = false;
@@ -282,7 +283,6 @@ public class Player : MonoBehaviour
                            && !collider.name.StartsWith("AiJumpLeft")
                      && !collider.name.StartsWith("AiJumpRight"))
                 {
-                    Debug.Log("AiJump " + collider.name);
                     doJump = true;
                     jumpHeight += 1;
                 }
