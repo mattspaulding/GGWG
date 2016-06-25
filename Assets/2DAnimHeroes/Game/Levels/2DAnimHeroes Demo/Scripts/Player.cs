@@ -195,17 +195,18 @@ public class Player : MonoBehaviour
 		//Debug.Log (collider.transform.name);
 		//if(!hit)
 		{
+          
+            //if (isFollower)
+            //{
+            //    if (collider.tag.Equals("Player"))
+            //    {
+            //        isActive = true;
+            //    }
+            //}
+
             if (isFollower)
             {
-                if (collider.tag.Equals("Player"))
-                {
-                    doJump = true;
-                }
-            }
-
-            if (isEnemy)
-            {
-                if (collider.tag.Equals("Player")&&!isActive)
+                if (collider.tag.Equals("Bullet")&&!isActive)
                 {
                     isActive = true;
                     SetCurrentState(Player.PlayerStates.celebration);
@@ -217,8 +218,8 @@ public class Player : MonoBehaviour
 		if ((!isEnemy && collider.tag == "BulletEnemy") || (isEnemy && collider.tag == "Bullet") || collider.tag == "Sword") {
 			if (health <= 0) {
 				animation.state.SetAnimation (0, "hitBig", false);
-				//GetComponent<BoxCollider2D> ().enabled = false;
-			//GetComponent<CircleCollider2D> ().enabled = false;
+				GetComponent<BoxCollider2D> ().enabled = false;
+			GetComponent<CircleCollider2D> ().enabled = false;
 				animation.state.SetAnimation (1, "reset", true);
 				isDead = true;
 				body.velocity = new Vector2 (4, 0);
@@ -241,21 +242,43 @@ public class Player : MonoBehaviour
 
 	void OnTriggerStay2D (Collider2D collider)
 	{
-		//Debug.Log (collider.transform.name);
-		//if(!hit)
-		{
+
+      
+        //Debug.Log (collider.transform.name);
+        //if(!hit)
+        {
 			if (isFollower&&isActive) {
-                if (collider.name.StartsWith("AiMoveRight"))
+                if (collider.name.StartsWith("AiStop"))
+                {
+                    aiMoveRight=aiMoveLeft = false;
+                }
+               else if (collider.name.StartsWith("AiJumpRight"))
+                {
+                    if (body.velocity.x > 1)
+                    {
+                        doJump = true;
+                    }
+                }
+                else if (collider.name.StartsWith("AiJumpLeft"))
+                {
+                    if (body.velocity.x <-1)
+                    {
+                         doJump = true;
+                    }
+                 }
+                else if (collider.name.StartsWith("AiMoveRight"))
                 {
                     aiMoveRight = true;
+                    aiMoveLeft = false;
                 }
                 else if (collider.name.StartsWith("AiMoveLeft"))
                 {
                     aiMoveLeft = true;
+                    aiMoveRight = false;
                 }
                 else if (!collider.tag.Equals("Bullet")
                     && !collider.tag.Equals("Player")
-                    && collider.transform.name != "Follower Front"
+                    && !collider.tag.Equals("Follower")
                            && !collider.name.StartsWith("AiJumpLeft")
                      && !collider.name.StartsWith("AiJumpRight"))
                 {
@@ -263,17 +286,8 @@ public class Player : MonoBehaviour
                     doJump = true;
                     jumpHeight += 1;
                 }
-                if (collider.name.StartsWith("AiJumpRight")&& body.velocity.x>0)
-                {
-                    Debug.Log("AiJumpRight " + body.velocity.x);
-                    doJump = true;
-                }
-                else if (collider.name.StartsWith("AiJumpLeft")&& body.velocity.x<0)
-                {
-                    Debug.Log("AiJumpLeft " + body.velocity.x);
-                    doJump = true;
-                }
-               
+
+
             }
         }
 	}
@@ -324,7 +338,7 @@ public class Player : MonoBehaviour
 			previousState = currentState;
 			previousDoFire = doFire;
 			//SpawnPointSystem();
-			doMoveLeft = doMoveRight = aiMoveLeft = aiMoveRight = doWalkLeft = doWalkRight = doJump = doFire = doStartFire = doEndFire = false;
+			doMoveLeft = doMoveRight = doWalkLeft = doWalkRight = doJump = doFire = doStartFire = doEndFire = false;
 		}
 	}
 
