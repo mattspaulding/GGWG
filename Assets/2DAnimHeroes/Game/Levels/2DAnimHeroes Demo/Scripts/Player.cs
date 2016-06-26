@@ -163,6 +163,7 @@ public class Player : MonoBehaviour
 	private bool previousDoFire;
 	private float hitMultiplier;
     private bool isDead;
+    private bool isZoomIn;
   
     void Start ()
 	{
@@ -193,10 +194,16 @@ public class Player : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D collider)
 	{
-		//Debug.Log (collider.transform.name);
-		//if(!hit)
-		{
-          
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("ZoomIn"))
+            {
+                isZoomIn = true;
+            }
+        }
+
+        {
+
             //if (isFollower)
             //{
             //    if (collider.tag.Equals("Player"))
@@ -245,11 +252,11 @@ public class Player : MonoBehaviour
 	void OnTriggerStay2D (Collider2D collider)
 	{
 
-      
+     
         //Debug.Log (collider.transform.name);
         //if(!hit)
         {
-			if (isFollower&&isActive) {
+            if (isFollower&&isActive) {
                 if (collider.name.StartsWith("AiStop"))
                 {
                     aiMoveRight=aiMoveLeft = false;
@@ -281,6 +288,7 @@ public class Player : MonoBehaviour
                 else if (!collider.tag.Equals("Bullet")
                     && !collider.tag.Equals("Player")
                     && !collider.tag.Equals("Follower")
+                           && !collider.name.StartsWith("Zoom")
                            && !collider.name.StartsWith("AiJumpLeft")
                      && !collider.name.StartsWith("AiJumpRight"))
                 {
@@ -295,9 +303,15 @@ public class Player : MonoBehaviour
 
 	void OnTriggerExit2D (Collider2D collider)
 	{
-		//Debug.Log (collider.transform.name);
-		//if(!hit)
-		{
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("ZoomIn"))
+            {
+                isZoomIn = false;
+            }
+        }
+
+        {
             if (isFollower&&!isActive)
             {
                 if (collider.tag.Equals("Player"))
@@ -311,6 +325,7 @@ public class Player : MonoBehaviour
 
 	void Update ()
 	{
+     
         CheckIsGrounded();
 
         if (!isDead) {
@@ -325,7 +340,18 @@ public class Player : MonoBehaviour
 			Movement ();
 			Flip ();
 			SkinChange ();
-			if (currentState != previousState) {
+            if (!isFollower && !isEnemy)
+            {
+                if (isZoomIn)
+                {
+                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 5f, 1 * Time.deltaTime);
+                }
+                else
+                {
+                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, 1 * Time.deltaTime);
+                }
+                }
+                if (currentState != previousState) {
 				SetAnimation ();
 			}
 			if (currentState != PlayerStates.ladderClimbUp && currentState != PlayerStates.ladderClimbDown && currentState != PlayerStates.ladderIdle && currentState != PlayerStates.swim && currentState != PlayerStates.swimIdle) {
@@ -1040,7 +1066,7 @@ public class Player : MonoBehaviour
             {
                 if (!wallTouch)
                     currentState = PlayerStates.falling;
-                if (CrossPlatformInputManager.GetButtonDown("Jump") || isFollower)
+                if (CrossPlatformInputManager.GetButtonDown("Jump") ||isFollower)
                 {
                     if (jumpSpeed > 0 && jumpSpeed < runSpeed)
                         jumpSpeed = runSpeed;
