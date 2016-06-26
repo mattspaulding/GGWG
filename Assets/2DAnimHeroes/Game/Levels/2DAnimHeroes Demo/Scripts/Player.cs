@@ -311,16 +311,16 @@ public class Player : MonoBehaviour
             }
         }
 
-        {
-            if (isFollower&&!isActive)
-            {
-                if (collider.tag.Equals("Player"))
-                {
-                    isActive = true;
-                   SetCurrentState(Player.PlayerStates.celebration);
-                }
-            }
-		}
+  //      {
+  //          if (isFollower&&!isActive)
+  //          {
+  //              if (collider.tag.Equals("Player"))
+  //              {
+  //                  isActive = true;
+  //                 SetCurrentState(Player.PlayerStates.celebration);
+  //              }
+  //          }
+		//}
 	}
 
 	void Update ()
@@ -344,11 +344,11 @@ public class Player : MonoBehaviour
             {
                 if (isZoomIn)
                 {
-                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 5f, 1 * Time.deltaTime);
+                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 4f, 2f * Time.deltaTime);
                 }
                 else
                 {
-                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, 1 * Time.deltaTime);
+                    Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
                 }
                 }
                 if (currentState != previousState) {
