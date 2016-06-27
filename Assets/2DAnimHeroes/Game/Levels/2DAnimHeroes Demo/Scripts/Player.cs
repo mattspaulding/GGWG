@@ -3,6 +3,7 @@ using System.Collections;
 using Spine.Unity;
 using UnityStandardAssets.CrossPlatformInput;
 using System.Linq;
+using UnityEngine.Audio;
 
 public class Player : MonoBehaviour
 {
@@ -49,6 +50,10 @@ public class Player : MonoBehaviour
 	public int health = 10;
     public bool isActive=false;
     public bool isDoubleJump = false;
+
+    public AudioMixerSnapshot phantomSnapshot;
+    public AudioMixerSnapshot bossSnapshot;
+    public AudioMixerSnapshot quietSnapshot;
 
 
 
@@ -200,6 +205,19 @@ public class Player : MonoBehaviour
             {
                 isZoomIn = true;
             }
+
+            if (collider.name.StartsWith("QuietZone"))
+            {
+                quietSnapshot.TransitionTo(5f);
+            }
+            if (collider.name.StartsWith("PhantomZone"))
+            {
+                phantomSnapshot.TransitionTo(1f);
+            }
+            if (collider.name.StartsWith("BossZone"))
+            {
+                bossSnapshot.TransitionTo(1f);
+            }
         }
 
         {
@@ -285,12 +303,9 @@ public class Player : MonoBehaviour
                     aiMoveLeft = true;
                     aiMoveRight = false;
                 }
-                else if (!collider.tag.Equals("Bullet")
+                else if (!collider.gameObject.layer.Equals(1)
                     && !collider.tag.Equals("Player")
-                    && !collider.tag.Equals("Follower")
-                           && !collider.name.StartsWith("Zoom")
-                           && !collider.name.StartsWith("AiJumpLeft")
-                     && !collider.name.StartsWith("AiJumpRight"))
+                    && !collider.tag.Equals("Follower"))
                 {
                     doJump = true;
                     jumpHeight += 1;
@@ -309,19 +324,22 @@ public class Player : MonoBehaviour
             {
                 isZoomIn = false;
             }
+
+           
+
         }
 
-  //      {
-  //          if (isFollower&&!isActive)
-  //          {
-  //              if (collider.tag.Equals("Player"))
-  //              {
-  //                  isActive = true;
-  //                 SetCurrentState(Player.PlayerStates.celebration);
-  //              }
-  //          }
-		//}
-	}
+        //      {
+        //          if (isFollower&&!isActive)
+        //          {
+        //              if (collider.tag.Equals("Player"))
+        //              {
+        //                  isActive = true;
+        //                 SetCurrentState(Player.PlayerStates.celebration);
+        //              }
+        //          }
+        //}
+    }
 
 	void Update ()
 	{
