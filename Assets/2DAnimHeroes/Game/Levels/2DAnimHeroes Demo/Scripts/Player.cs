@@ -54,7 +54,9 @@ public class Player : MonoBehaviour
 
     public AudioMixer audioMixer;
     public AudioMixerSnapshot phantomSnapshot;
+    public AudioMixerSnapshot killCounterSnapshot;
     public AudioMixerSnapshot bossSnapshot;
+    public AudioMixerSnapshot descendingOnTheLabSnapshot;
     public AudioMixerSnapshot quietSnapshot;
     public AudioSource musicPlayer;
 
@@ -218,15 +220,40 @@ public class Player : MonoBehaviour
                 audioMixer.GetFloat("PhantomVolume", out vol);
                 if (vol == -80f)
                 {
-                    musicPlayer.Stop();
-                    musicPlayer.Play();
-                }
+                    ResetMusic();
                     phantomSnapshot.TransitionTo(0f);
+                }
+                else
+                phantomSnapshot.TransitionTo(5f);
                 
             }
             if (collider.name.StartsWith("BossZone"))
             {
                 bossSnapshot.TransitionTo(1f);
+            }
+            if (collider.name.StartsWith("DescendingOnTheLabZone"))
+            {
+                float vol;
+                audioMixer.GetFloat("DescendingOnTheLabVolume", out vol);
+                if (vol == -80f)
+                {
+                    ResetMusic();
+                    descendingOnTheLabSnapshot.TransitionTo(0f);
+                }
+                else
+                descendingOnTheLabSnapshot.TransitionTo(5f);
+            }
+            if (collider.name.StartsWith("KillCounterZone"))
+            {
+                float vol;
+                audioMixer.GetFloat("KillCounterVolume", out vol);
+                if (vol == -80f)
+                {
+                    ResetMusic();
+                    killCounterSnapshot.TransitionTo(0f);
+                }
+                else
+                killCounterSnapshot.TransitionTo(5f);
             }
         }
 
@@ -1612,4 +1639,15 @@ public class Player : MonoBehaviour
 		wallFrames = true;
 	}
 
-}
+
+    private void ResetMusic()
+    {
+        var allAudioSources = FindObjectsOfType<AudioSource>();
+        foreach (var audioS in allAudioSources)
+        {
+            audioS.Stop();
+            audioS.Play();
+        }
+    }
+
+    }
