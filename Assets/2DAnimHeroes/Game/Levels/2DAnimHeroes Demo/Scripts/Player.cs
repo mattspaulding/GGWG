@@ -51,10 +51,12 @@ public class Player : MonoBehaviour
     public bool isActive=false;
     public bool isDoubleJump = false;
 
+
+    public AudioMixer audioMixer;
     public AudioMixerSnapshot phantomSnapshot;
     public AudioMixerSnapshot bossSnapshot;
     public AudioMixerSnapshot quietSnapshot;
-
+    public AudioSource musicPlayer;
 
 
     public Transform GroundCheck;
@@ -208,11 +210,19 @@ public class Player : MonoBehaviour
 
             if (collider.name.StartsWith("QuietZone"))
             {
-                quietSnapshot.TransitionTo(5f);
+                quietSnapshot.TransitionTo(15f);
             }
             if (collider.name.StartsWith("PhantomZone"))
             {
-                phantomSnapshot.TransitionTo(1f);
+                float vol;
+                audioMixer.GetFloat("PhantomVolume", out vol);
+                if (vol == -80f)
+                {
+                    musicPlayer.Stop();
+                    musicPlayer.Play();
+                }
+                    phantomSnapshot.TransitionTo(0f);
+                
             }
             if (collider.name.StartsWith("BossZone"))
             {
@@ -304,6 +314,7 @@ public class Player : MonoBehaviour
                     aiMoveRight = false;
                 }
                 else if (!collider.gameObject.layer.Equals(1)
+                    && !collider.gameObject.layer.Equals(23)
                     && !collider.tag.Equals("Player")
                     && !collider.tag.Equals("Follower"))
                 {
