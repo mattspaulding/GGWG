@@ -4,6 +4,7 @@ using Spine.Unity;
 using UnityStandardAssets.CrossPlatformInput;
 using System.Linq;
 using UnityEngine.Audio;
+using UnityEditor;
 
 public class Player : MonoBehaviour
 {
@@ -186,10 +187,18 @@ public class Player : MonoBehaviour
 		rightShoulder = animation.skeleton.FindBone ("arm_upper_near");
 		animation.UpdateLocal += HandleUpdateLocal;
 
-		//Random Skin on startup
-		skinCount = Random.Range (0, skins.Length - 1);
-		animation.skeleton.SetSkin (skins [skinCount]);
-		skinCount++;
+        if (this.name.StartsWith("Player"))
+        {
+            animation.skeleton.SetSkin("YoungBuck");
+        }
+        else
+        {
+            //Random Skin on startup
+            skinCount = Random.Range(0, skins.Length - 1);
+            animation.skeleton.SetSkin(skins[skinCount]);
+            skinCount++;
+        }
+       
 	}
 
 	//All local bone rotations need to be called in UpdateLocal.
@@ -206,6 +215,12 @@ public class Player : MonoBehaviour
 	{
         if (!isFollower && !isEnemy)
         {
+
+            if (collider.name.StartsWith("Dialog"))
+            {
+                StartDialog();
+              
+                }
             if (collider.name.StartsWith("ZoomIn"))
             {
                 isZoomIn = true;
@@ -1662,6 +1677,11 @@ public class Player : MonoBehaviour
             audioS.Stop();
             audioS.Play();
         }
+    }
+
+    void StartDialog()
+    {
+        Camera.main.transform.position = new Vector3(-683.9f, -63.07f, 0);
     }
 
     }
