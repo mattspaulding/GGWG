@@ -6,6 +6,7 @@ public class CameraFollowPlayer : MonoBehaviour {
 	public float smoothing = 5;
 	public float offsetX = 0;
 	public float offsetY = 0;
+    public bool isFollowPlayer = true;
 	// Use this for initialization
 	void Start () {
 	
@@ -13,6 +14,7 @@ public class CameraFollowPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(isFollowPlayer)
 		transform.position = Vector3.Lerp (transform.position, new Vector3(follow.position.x + offsetX, follow.position.y + offsetY, -10), smoothing * Time.deltaTime);
 	}
 }
