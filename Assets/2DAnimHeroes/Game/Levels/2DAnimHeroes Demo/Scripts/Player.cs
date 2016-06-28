@@ -54,6 +54,7 @@ public class Player : MonoBehaviour
 
     public AudioMixer audioMixer;
     public AudioMixerSnapshot phantomSnapshot;
+    public AudioMixerSnapshot dontCryJenniferSnapshot;
     public AudioMixerSnapshot killCounterSnapshot;
     public AudioMixerSnapshot bossSnapshot;
     public AudioMixerSnapshot descendingOnTheLabSnapshot;
@@ -224,8 +225,21 @@ public class Player : MonoBehaviour
                     phantomSnapshot.TransitionTo(0f);
                 }
                 else
-                phantomSnapshot.TransitionTo(5f);
-                
+                    phantomSnapshot.TransitionTo(5f);
+
+            }
+            if (collider.name.StartsWith("DontCryJenniferZone"))
+            {
+                float vol;
+                audioMixer.GetFloat("DontCryJenniferVolume", out vol);
+                if (vol == -80f)
+                {
+                    ResetMusic();
+                    dontCryJenniferSnapshot.TransitionTo(0f);
+                }
+                else
+                    dontCryJenniferSnapshot.TransitionTo(5f);
+
             }
             if (collider.name.StartsWith("BossZone"))
             {
