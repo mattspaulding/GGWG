@@ -51,6 +51,7 @@ public class Player : MonoBehaviour
     public int health = 10;
     public bool isActive = false;
     public bool isDoubleJump = false;
+    public bool isAiControlled = false;
 
 
     public AudioMixer audioMixer;
@@ -134,9 +135,8 @@ public class Player : MonoBehaviour
     private bool ladderFrames = true;
     private bool ladderToGroundFrames = true;
     private bool isGrounded = false;
-    private bool allowMovement = false;
+    private bool allowMovement = true;
     private bool isSwim = false;
-    private bool isSleeping = false;
     private bool wallTouch = false;
     private bool ladderTouch = false;
     private bool interactiveTouch = false;
@@ -179,6 +179,8 @@ public class Player : MonoBehaviour
     private bool isDead;
     private bool isZoomIn;
     private int zoomSize;
+    private CameraFollowPlayer cameraFollowPlayer;
+    private Vector3 cameraPosition;
 
     void Start()
     {
@@ -190,6 +192,7 @@ public class Player : MonoBehaviour
         leftShoulder = animation.skeleton.FindBone("arm_upper_far");
         rightShoulder = animation.skeleton.FindBone("arm_upper_near");
         animation.UpdateLocal += HandleUpdateLocal;
+        cameraFollowPlayer =  Camera.main.GetComponent<CameraFollowPlayer>();
 
         if (this.name.StartsWith("Player"))
         {
@@ -216,20 +219,32 @@ public class Player : MonoBehaviour
 
     private IEnumerator Cave()
     {
+        // Wake up laying down
+        animation.state.SetAnimation(0, "hitBig", false);
+        this.allowMovement = false;
+        this.isDead = true;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        print(Time.time);
-        yield return new WaitForSeconds(10);
-        var cameraFollowPlayer = Camera.main.GetComponent<CameraFollowPlayer>();
-
+        GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = -1f;
+        yield return new WaitForSeconds(2);
+        // Kneel
+         this.isDead = false;
+        GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
+         yield return new WaitForSeconds(2);
+        // Move camera to guard
         cameraFollowPlayer.isFollowPlayer = false;
-        Camera.main.transform.position = new Vector3(-683.9f, -63.07f, 0);
-        print(Time.time);
+        cameraPosition= new Vector3(-570.45f, -46.57f,-10f);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        print(Time.time);
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(2);
+        // Move camera to player
         cameraFollowPlayer.isFollowPlayer = true;
-        print(Time.time);
+        yield return new WaitForSeconds(1);
+        // Stand up
+        this.isActive = true;
+        this.allowMovement = true;
+        this.SetCurrentState(Player.PlayerStates.idle);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
+        GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = 1f;
+
 
     }
 
@@ -459,6 +474,11 @@ public class Player : MonoBehaviour
             {
                 Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
             }
+            if (!cameraFollowPlayer.isFollowPlayer)
+            {
+                Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, cameraPosition, 2f * Time.deltaTime);
+            }
+           
         }
         CheckIsGrounded();
 
@@ -613,12 +633,18 @@ public class Player : MonoBehaviour
     {
         if (isFollower)
         {
-            GameObject[] targets;
+            GameObject[] targets= new GameObject[0];
             if (isEnemy)
-                targets = GameObject.FindGameObjectsWithTag("Player").Union(GameObject.FindGameObjectsWithTag("Follower")).ToArray();
+            {
+                if (!isAiControlled)
+                {
+                    targets = GameObject.FindGameObjectsWithTag("Player").Union(GameObject.FindGameObjectsWithTag("Follower")).ToArray();
+                }
+            }
             else
+            {
                 targets = GameObject.FindGameObjectsWithTag("Enemy");
-
+            }
             foreach (var target in targets)
             {
                 if (target != null && !target.GetComponent<Player>().isDead)
@@ -1651,7 +1677,7 @@ public class Player : MonoBehaviour
     //Check called every frame to follow the target.
     void Follow()
     {
-        if (isFollower && isActive)
+        if (isFollower && isActive && !isAiControlled)
         {
             var playerTranform = GameObject.FindWithTag("Player").transform;
 
