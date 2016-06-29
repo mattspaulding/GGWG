@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
     ;
 
     private PlayerStates currentState, previousState;
-    private CombatStates combatState = CombatStates.machineGun;
+    private CombatStates combatState = CombatStates.unarmed;
     /*private string[] skins = {"StumpyPete", "BeardyBuck", "BuckMatthews", "ChuckMatthews", "Commander-Darkstrike", "Commander-Firestrike", "Commander-Icestrike", "Commander-Stonestrike",
 		"DuckMatthews", "Dummy", "Fletch", "GabrielCaine", "MetalMan", "MetalMan-Blue", "MetalMan-Red", "MetalMan-Green", "PamelaFrost",
 		"PamelaFrost-02", "PamelaFrost-03", "PamelaFrost-04", "PamelaFrost-05", "TruckMatthews", "TurboTed", "TurboTed-Blue", "TurboTed-Green", "YoungBuck"};*/
@@ -177,10 +177,13 @@ public class Player : MonoBehaviour
     private bool previousDoFire;
     private float hitMultiplier;
     private bool isDead;
+    private bool isPunch;
     private bool isZoomIn;
     private int zoomSize;
     private CameraFollowPlayer cameraFollowPlayer;
     private Vector3 cameraPosition;
+    private float punch1time;
+    private float punch2time;
 
     void Start()
     {
@@ -225,16 +228,16 @@ public class Player : MonoBehaviour
         this.isDead = true;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
         GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = -1f;
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         // Kneel
          this.isDead = false;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-         yield return new WaitForSeconds(2);
+         yield return new WaitForSeconds(1);
         // Move camera to guard
         cameraFollowPlayer.isFollowPlayer = false;
         cameraPosition= new Vector3(-570.45f, -46.57f,-10f);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         // Move camera to player
         cameraFollowPlayer.isFollowPlayer = true;
         yield return new WaitForSeconds(1);
@@ -352,19 +355,14 @@ public class Player : MonoBehaviour
         }
 
 
-        if ((!isEnemy && collider.tag == "BulletEnemy") || (isEnemy && collider.tag == "Bullet") || collider.tag == "Sword")
+        if ((!isEnemy && collider.tag == "BulletEnemy")  || (isEnemy && collider.tag == "Bullet") || collider.tag == "Sword")
         {
 
             if (health <= 0)
             {
                 animation.state.SetAnimation(0, "hitBig", false);
-                //GetComponent<BoxCollider2D>().enabled = false;
-                //GetComponent<CircleCollider2D>().enabled = false;
-                animation.state.SetAnimation(1, "reset", true);
                 isDead = true;
-                //body.velocity = new Vector2(4, 0);
-                //StartCoroutine(ZeroVelocity());
-            }
+              }
             else
             {
                 if (collider.transform.position.x > transform.position.x)
@@ -388,10 +386,39 @@ public class Player : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
+        if (isEnemy && collider.name == "Melee")
+        {
+            var a = 3;
+        }
+        if (isEnemy && collider.name == "Melee" && GameObject.Find("Player").GetComponent<Player>().isPunch)
+        {
+            if (health <= 0)
+            {
+                animation.state.SetAnimation(0, "hitBig", false);
+                isDead = true;
+            }
+            else
+            {
+                if (collider.transform.position.x > transform.position.x)
+                {
+                    hitMultiplier = 0.25f;
+                }
+                else
+                {
+                    hitMultiplier = -0.25f;
+                }
+                //hitAnim = true;
+                animation.state.SetAnimation(0, "hit1", false).Complete += delegate
+                {
+                    currentState = PlayerStates.wallIdle;
+                };
+                body.velocity = new Vector2(body.velocity.x * -1, 0);
+                health--;
+            }
+            GameObject.Find("Player").GetComponent<Player>().isPunch = false;
+        }
 
 
-        //Debug.Log (collider.transform.name);
-        //if(!hit)
         {
             if (isFollower && isActive)
             {
@@ -478,7 +505,10 @@ public class Player : MonoBehaviour
             {
                 Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, cameraPosition, 2f * Time.deltaTime);
             }
-           
+
+            this.punch1time = Mathf.MoveTowards(this.punch1time, 0f, Time.deltaTime);
+
+            this.punch2time = Mathf.MoveTowards(this.punch2time, 0f, Time.deltaTime);
         }
         CheckIsGrounded();
 
@@ -700,9 +730,27 @@ public class Player : MonoBehaviour
             switch (combatState)
             {
                 case CombatStates.unarmed:
-                    animation.state.SetAnimation(1, "punch1", false);
-                    animation.state.AddAnimation(1, "punch2", false, 0);
-                    animation.state.AddAnimation(1, "punch3", false, 0);
+                    this.isPunch = true;
+
+                  
+                    if (punch1time==0)
+                    {
+                        animation.state.SetAnimation(1, "punch1", false);
+                        this.punch1time = .5f;
+                        this.punch2time = 0f;
+                    }
+                    else if (punch2time == 0)
+                    {
+                        animation.state.SetAnimation(1, "punch2", false);
+                        this.punch1time = .5f;
+                        this.punch2time = .5f;
+                    }
+                    else 
+                    {
+                        animation.state.SetAnimation(1, "punch3", false);
+                        this.punch2time = .5f;
+                    }
+                    //animation.state.AddAnimation(1, "punch3", false, 0);
                     //allowMovement = false;
                     break;
                 case CombatStates.melee:
@@ -791,7 +839,8 @@ public class Player : MonoBehaviour
             switch (combatState)
             {
                 case CombatStates.unarmed:
-                    animation.state.SetAnimation(1, "reset", false);
+                    this.isPunch = false;
+                 //   animation.state.SetAnimation(1, "reset", false);
                     allowMovement = true;
                     break;
                 case CombatStates.melee:
