@@ -230,12 +230,12 @@ public class Player : MonoBehaviour
         GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = -1f;
         yield return new WaitForSeconds(1);
         // Kneel
-         this.isDead = false;
+        this.isDead = false;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-         yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1);
         // Move camera to guard
         cameraFollowPlayer.isFollowPlayer = false;
-        cameraPosition= new Vector3(-570.45f, -46.57f,-10f);
+        cameraPosition = new Vector3(-570.45f, -46.57f, -10f);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(1);
         // Move camera to player
@@ -250,6 +250,21 @@ public class Player : MonoBehaviour
 
 
     }
+
+    private IEnumerator CoughUpItem()
+    {
+        this.transform.FindChild("Item").gameObject.active = true;
+        this.transform.FindChild("Item").GetComponent<Rigidbody2D>().velocity = new Vector2(-4f, 5f);
+
+        yield return new WaitForSeconds(1);
+        this.transform.FindChild("Item").GetComponent<BoxCollider2D>().enabled = true;
+        this.transform.FindChild("Item").GetComponent<CircleCollider2D>().enabled = true;
+
+
+
+    }
+
+
 
     //All local bone rotations need to be called in UpdateLocal.
     void HandleUpdateLocal(ISkeletonAnimation skeletonRenderer)
@@ -266,7 +281,7 @@ public class Player : MonoBehaviour
     {
         if (!isFollower && !isEnemy)
         {
-
+          
           
             if (collider.name.StartsWith("ZoomIn"))
             {
@@ -362,7 +377,10 @@ public class Player : MonoBehaviour
             {
                 animation.state.SetAnimation(0, "hitBig", false);
                 isDead = true;
-              }
+
+                this.transform.FindChild("Item").GetComponent<Rigidbody2D>().velocity=(new Vector2(50f, 10000f));
+                this.GetComponent<Rigidbody2D>().velocity=(new Vector2(50f, 10000f));
+            }
             else
             {
                 if (collider.transform.position.x > transform.position.x)
@@ -390,12 +408,14 @@ public class Player : MonoBehaviour
         {
             var a = 3;
         }
-        if (isEnemy && collider.name == "Melee" && GameObject.Find("Player").GetComponent<Player>().isPunch)
+        if (isEnemy && collider.name == "Melee" &&!isDead && GameObject.Find("Player").GetComponent<Player>().isPunch)
         {
             if (health <= 0)
             {
                 animation.state.SetAnimation(0, "hitBig", false);
                 isDead = true;
+                StartCoroutine(CoughUpItem());
+
             }
             else
             {

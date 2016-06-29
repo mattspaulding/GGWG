@@ -27,7 +27,9 @@ public class Item : MonoBehaviour {
 		transform.Rotate (0, 0, rotateSpeed);
 		if(enlarge)
 		{
-			transform.localScale = Vector3.Lerp (transform.localScale, new Vector3(maxSize, maxSize, maxSize), enlargeSpeed * Time.deltaTime);
+            GetComponent<Rigidbody2D>().gravityScale = 0f;
+            GetComponent<BoxCollider2D>().enabled = false;
+            transform.localScale = Vector3.Lerp (transform.localScale, new Vector3(maxSize, maxSize, maxSize), enlargeSpeed * Time.deltaTime);
 			if(transform.localScale.x > maxSize*0.9f)
 			{
 				minimize = true;
@@ -47,17 +49,21 @@ public class Item : MonoBehaviour {
 	{
 		if(!hit)
 		{
-			if(collider.tag == "Player" )
+			if(collider.name == "Player" )
 			{
 				enlarge = true;
 				hit = true;
-				GetComponent<BoxCollider2D>().enabled = false;
+				GetComponent<CircleCollider2D>().enabled = false;
+                if (this.name.Equals("Item"))
+                {
+                    Destroy(GameObject.Find("InvisibleWall0").gameObject); 
+                }
                 if (this.name.Equals("DoubleJump"))
-                    {
+                {
                     player.isDoubleJump = true;
                 }
-			}
-				
-		}
+            }
+
+        }
 	}
 }
