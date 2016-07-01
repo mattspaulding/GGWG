@@ -1,0 +1,3 @@
+Note:
+	• 2D Sky FREE does not contain hi-quality textures and scripts.
+	• If you are interested or need them, please visit 2D Sky on Unity Asset Store at https://www.assetstore.unity3d.com/en/#!/content/21555

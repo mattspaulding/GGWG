@@ -76,6 +76,8 @@ public class Player : MonoBehaviour
     public GameObject bulletPrefab;
     public BoxCollider2D swordHitbox;
     public Transform[] spawnPoints;
+    public int zoomSize = 15;
+
 
     //Private
     public enum PlayerStates
@@ -179,7 +181,6 @@ public class Player : MonoBehaviour
     private bool isDead;
     private bool isPunch;
     private bool isZoomIn;
-    private int zoomSize=2;
     private CameraFollowPlayer cameraFollowPlayer;
     private Vector3 cameraPosition;
     private float punch1time;
