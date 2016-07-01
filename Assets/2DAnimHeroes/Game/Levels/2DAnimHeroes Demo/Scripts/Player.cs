@@ -122,7 +122,7 @@ public class Player : MonoBehaviour
     ;
 
     private PlayerStates currentState, previousState;
-    private CombatStates combatState = CombatStates.unarmed;
+    public CombatStates combatState = CombatStates.unarmed;
     /*private string[] skins = {"StumpyPete", "BeardyBuck", "BuckMatthews", "ChuckMatthews", "Commander-Darkstrike", "Commander-Firestrike", "Commander-Icestrike", "Commander-Stonestrike",
 		"DuckMatthews", "Dummy", "Fletch", "GabrielCaine", "MetalMan", "MetalMan-Blue", "MetalMan-Red", "MetalMan-Green", "PamelaFrost",
 		"PamelaFrost-02", "PamelaFrost-03", "PamelaFrost-04", "PamelaFrost-05", "TruckMatthews", "TurboTed", "TurboTed-Blue", "TurboTed-Green", "YoungBuck"};*/
@@ -370,16 +370,21 @@ public class Player : MonoBehaviour
         }
 
 
-        if ((!isEnemy && collider.tag == "BulletEnemy")  || (isEnemy && collider.tag == "Bullet") || collider.tag == "Sword")
+        if ((!isEnemy && collider.tag == "BulletEnemy") 
+            || (isEnemy && collider.tag == "Bullet") 
+            || collider.tag == "Sword"
+            || (isEnemy && collider.name == "Melee"  && GameObject.Find("Player").GetComponent<Player>().isPunch))
         {
 
             if (health <= 0)
             {
                 animation.state.SetAnimation(0, "hitBig", false);
+                if (!isDead)
+                {
+                    StartCoroutine(CoughUpItem());
+                }
+                animation.state.SetAnimation(0, "hitBig", false);
                 isDead = true;
-
-                this.transform.FindChild("Item").GetComponent<Rigidbody2D>().velocity=(new Vector2(50f, 10000f));
-                this.GetComponent<Rigidbody2D>().velocity=(new Vector2(50f, 10000f));
             }
             else
             {
@@ -399,6 +404,7 @@ public class Player : MonoBehaviour
                 body.velocity = new Vector2(body.velocity.x * -1, 0);
                 health--;
             }
+            GameObject.Find("Player").GetComponent<Player>().isPunch = false;
         }
     }
 

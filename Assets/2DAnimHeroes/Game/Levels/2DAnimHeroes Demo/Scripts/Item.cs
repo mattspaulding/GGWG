@@ -10,6 +10,7 @@ public class Item : MonoBehaviour {
 	public float minSize = 0.1f;
 	public float enlargeSpeed = 1.0f;
 	public float minimizeSpeed = 1.0f;
+    public string itemType = "unarmed";
 
 	private bool enlarge = false;
 	private bool minimize = false;
@@ -54,13 +55,28 @@ public class Item : MonoBehaviour {
 				enlarge = true;
 				hit = true;
 				GetComponent<CircleCollider2D>().enabled = false;
-                if (this.name.Equals("Item"))
+                switch (this.itemType)
                 {
-                    Destroy(GameObject.Find("InvisibleWall0").gameObject); 
-                }
-                if (this.name.Equals("DoubleJump"))
-                {
-                    player.isDoubleJump = true;
+                    case "Key":
+                        {
+                            Destroy(GameObject.Find("InvisibleWall0").gameObject);
+                            break;
+                        }
+                    case "Pistol":
+                        {
+                           player.animation.state.SetAnimation(1, "pistolNearIdle", true);
+                            player.combatState = Player.CombatStates.pistol;
+                            break;
+                        }
+                    case "DoubleJump":
+                        {
+                            player.isDoubleJump = true;
+                            break;
+                        }
+                    default:
+                        {
+                            break;
+                        }
                 }
             }
 
