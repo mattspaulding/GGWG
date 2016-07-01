@@ -179,7 +179,7 @@ public class Player : MonoBehaviour
     private bool isDead;
     private bool isPunch;
     private bool isZoomIn;
-    private int zoomSize;
+    private int zoomSize=2;
     private CameraFollowPlayer cameraFollowPlayer;
     private Vector3 cameraPosition;
     private float punch1time;
@@ -285,7 +285,7 @@ public class Player : MonoBehaviour
           
             if (collider.name.StartsWith("ZoomIn"))
             {
-                isZoomIn = true;
+               // isZoomIn = true;
                 zoomSize = System.Int32.Parse( collider.name.Split('-')[1]);
             }
 
@@ -486,16 +486,16 @@ public class Player : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        if (!isFollower && !isEnemy)
-        {
-            if (collider.name.StartsWith("ZoomIn"))
-            {
-                isZoomIn = false;
-            }
+        //if (!isFollower && !isEnemy)
+        //{
+        //    if (collider.name.StartsWith("ZoomIn"))
+        //    {
+        //        isZoomIn = false;
+        //    }
 
 
 
-        }
+        //}
 
         //      {
         //          if (isFollower&&!isActive)
@@ -513,14 +513,14 @@ public class Player : MonoBehaviour
     {
         if (!isFollower && !isEnemy)
         {
-            if (isZoomIn)
-            {
+          //  if (isZoomIn)
+          //  {
                 Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, zoomSize, 2f * Time.deltaTime);
-            }
-            else
-            {
-                Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
-            }
+         //   }
+         //   else
+         //   {
+         //       Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
+         //   }
             if (!cameraFollowPlayer.isFollowPlayer)
             {
                 Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, cameraPosition, 2f * Time.deltaTime);
