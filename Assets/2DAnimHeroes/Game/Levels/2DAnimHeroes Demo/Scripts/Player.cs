@@ -253,7 +253,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator CoughUpItem()
     {
-        this.transform.FindChild("Item").gameObject.active = true;
+        this.transform.FindChild("Item").gameObject.SetActive(true);
         this.transform.FindChild("Item").GetComponent<Rigidbody2D>().velocity = new Vector2(-4f, 5f);
 
         yield return new WaitForSeconds(1);
