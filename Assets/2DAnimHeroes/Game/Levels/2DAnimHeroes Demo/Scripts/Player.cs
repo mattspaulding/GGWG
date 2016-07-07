@@ -160,7 +160,7 @@ public class Player : MonoBehaviour
     private int currentSpawnPoint = 0;
     private int skinCount = 0;
     private Vector2 previousVelocity = Vector2.zero;
-    private Vector2 velocity = Vector2.zero;
+    public Vector2 velocity = Vector2.zero;
     public Spine.Unity.SkeletonAnimation animation;
     private Rigidbody2D currentInteractiveObject;
     private Rigidbody2D body;
@@ -185,7 +185,7 @@ public class Player : MonoBehaviour
     private Vector3 cameraPosition;
     private float punch1time;
     private float punch2time;
-
+  
     void Start()
     {
         currentSprintTimer = sprintTimer;
@@ -282,8 +282,11 @@ public class Player : MonoBehaviour
     {
         if (!isFollower && !isEnemy)
         {
-          
-          
+            if (collider.name.StartsWith("Tractor"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(true);
+              }
+
             if (collider.name.StartsWith("ZoomIn"))
             {
                // isZoomIn = true;
@@ -348,6 +351,10 @@ public class Player : MonoBehaviour
                 else
                     killCounterSnapshot.TransitionTo(5f);
             }
+
+
+          
+
         }
 
         {
@@ -411,6 +418,18 @@ public class Player : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("Tractor") && CrossPlatformInputManager.GetButtonDown("Interact"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(false);
+                GameObject.Find("Tractor").gameObject.GetComponent<CarController2D>().enabled = true;
+                this.gameObject.GetComponent<Player>().gameObject.SetActive(false);
+                mainCamera.GetComponent<CameraFollowPlayer>().follow = GameObject.Find("Tractor").transform;
+            }
+           
+
+        }
         if (isEnemy && collider.name == "Melee")
         {
             var a = 3;
@@ -493,28 +512,32 @@ public class Player : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        //if (!isFollower && !isEnemy)
-        //{
-        //    if (collider.name.StartsWith("ZoomIn"))
-        //    {
-        //        isZoomIn = false;
-        //    }
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("Tractor"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(false);
+            }
+            //    if (collider.name.StartsWith("ZoomIn"))
+            //    {
+            //        isZoomIn = false;
+            //    }
 
 
 
-        //}
+            //}
 
-        //      {
-        //          if (isFollower&&!isActive)
-        //          {
-        //              if (collider.tag.Equals("Player"))
-        //              {
-        //                  isActive = true;
-        //                 SetCurrentState(Player.PlayerStates.celebration);
-        //              }
-        //          }
-        //}
-    }
+            //      {
+            //          if (isFollower&&!isActive)
+            //          {
+            //              if (collider.tag.Equals("Player"))
+            //              {
+            //                  isActive = true;
+            //                 SetCurrentState(Player.PlayerStates.celebration);
+            //              }
+            //          }
+        }
+        }
 
     void Update()
     {
