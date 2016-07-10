@@ -1778,7 +1778,16 @@ public class Player : MonoBehaviour
     {
         if (isFollower && isActive && !isAiControlled)
         {
-            var playerTranform = GameObject.FindWithTag("Player").transform;
+            var player = GameObject.FindWithTag("Player");
+            if (player == null)
+            {
+                player = GameObject.Find("Tractor");
+                FollowPosition = 4;
+            }
+
+            var playerTranform = player.transform;
+
+          
 
             if (Mathf.Abs(playerTranform.localPosition.x - transform.localPosition.x) < 30)
             {
