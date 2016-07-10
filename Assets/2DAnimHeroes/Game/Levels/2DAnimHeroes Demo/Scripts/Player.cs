@@ -229,19 +229,19 @@ public class Player : MonoBehaviour
         this.isDead = true;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
         GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = -1f;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Kneel
         this.isDead = false;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Move camera to guard
         cameraFollowPlayer.isFollowPlayer = false;
         cameraPosition = new Vector3(-570.45f, -46.57f, -10f);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Move camera to player
         cameraFollowPlayer.isFollowPlayer = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Stand up
         this.isActive = true;
         this.allowMovement = true;
