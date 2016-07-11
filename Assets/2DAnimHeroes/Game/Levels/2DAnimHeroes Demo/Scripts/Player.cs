@@ -1715,7 +1715,19 @@ public class Player : MonoBehaviour
     {
         if (jumpFrames)
         {
-            isGrounded = Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer);
+            if(Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer))
+            isGrounded = true;
+             }
+        if (Physics2D.OverlapCircle(GroundCheck.position, 1f, interactiveLayer)&&this.velocity.y<=0f)
+        {
+            isGrounded = true;
+            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
+            Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
+        }
+        else
+        {
+            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
+           Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
         }
     }
 
