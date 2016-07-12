@@ -285,7 +285,12 @@ public class Player : MonoBehaviour
             if (collider.name.StartsWith("Tractor"))
             {
                 GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(true);
-              }
+            }
+
+            if (collider.name.StartsWith("Bigfoot"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(true);
+            }
 
             if (collider.name.StartsWith("ZoomIn"))
             {
@@ -427,7 +432,14 @@ public class Player : MonoBehaviour
                 this.gameObject.GetComponent<Player>().gameObject.SetActive(false);
                 mainCamera.GetComponent<CameraFollowPlayer>().follow = GameObject.Find("Tractor").transform;
             }
-           
+
+            if (collider.name.StartsWith("Bigfoot") && CrossPlatformInputManager.GetButtonDown("Interact"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(false);
+                GameObject.Find("Bigfoot").gameObject.GetComponent<CarController2D>().enabled = true;
+                this.gameObject.GetComponent<Player>().gameObject.SetActive(false);
+                mainCamera.GetComponent<CameraFollowPlayer>().follow = GameObject.Find("Bigfoot").transform;
+            }
 
         }
         if (isEnemy && collider.name == "Melee")
@@ -518,6 +530,10 @@ public class Player : MonoBehaviour
             {
                 GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(false);
             }
+            if (collider.name.StartsWith("Bigfoot"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(false);
+            }
             //    if (collider.name.StartsWith("ZoomIn"))
             //    {
             //        isZoomIn = false;
@@ -537,7 +553,7 @@ public class Player : MonoBehaviour
             //              }
             //          }
         }
-        }
+    }
 
     void Update()
     {
