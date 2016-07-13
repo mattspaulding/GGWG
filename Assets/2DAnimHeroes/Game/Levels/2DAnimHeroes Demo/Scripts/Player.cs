@@ -4,7 +4,6 @@ using Spine.Unity;
 using UnityStandardAssets.CrossPlatformInput;
 using System.Linq;
 using UnityEngine.Audio;
-using UnityEditor;
 
 public class Player : MonoBehaviour
 {
