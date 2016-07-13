@@ -160,7 +160,7 @@ public class Player : MonoBehaviour
     private int currentSpawnPoint = 0;
     private int skinCount = 0;
     private Vector2 previousVelocity = Vector2.zero;
-    private Vector2 velocity = Vector2.zero;
+    public Vector2 velocity = Vector2.zero;
     public Spine.Unity.SkeletonAnimation animation;
     private Rigidbody2D currentInteractiveObject;
     private Rigidbody2D body;
@@ -185,7 +185,7 @@ public class Player : MonoBehaviour
     private Vector3 cameraPosition;
     private float punch1time;
     private float punch2time;
-
+  
     void Start()
     {
         currentSprintTimer = sprintTimer;
@@ -229,19 +229,19 @@ public class Player : MonoBehaviour
         this.isDead = true;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
         GameObject.Find("CaveGuard0").GetComponent<Player>().velocity.x = -1f;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Kneel
         this.isDead = false;
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Move camera to guard
         cameraFollowPlayer.isFollowPlayer = false;
         cameraPosition = new Vector3(-570.45f, -46.57f, -10f);
         GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Move camera to player
         cameraFollowPlayer.isFollowPlayer = true;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         // Stand up
         this.isActive = true;
         this.allowMovement = true;
@@ -282,8 +282,16 @@ public class Player : MonoBehaviour
     {
         if (!isFollower && !isEnemy)
         {
-          
-          
+            if (collider.name.StartsWith("Tractor"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(true);
+            }
+
+            if (collider.name.StartsWith("Bigfoot"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(true);
+            }
+
             if (collider.name.StartsWith("ZoomIn"))
             {
                // isZoomIn = true;
@@ -348,6 +356,10 @@ public class Player : MonoBehaviour
                 else
                     killCounterSnapshot.TransitionTo(5f);
             }
+
+
+          
+
         }
 
         {
@@ -411,6 +423,25 @@ public class Player : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collider)
     {
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("Tractor") && CrossPlatformInputManager.GetButtonDown("Interact"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(false);
+                GameObject.Find("Tractor").gameObject.GetComponent<CarController2D>().enabled = true;
+                this.gameObject.GetComponent<Player>().gameObject.SetActive(false);
+                mainCamera.GetComponent<CameraFollowPlayer>().follow = GameObject.Find("Tractor").transform;
+            }
+
+            if (collider.name.StartsWith("Bigfoot") && CrossPlatformInputManager.GetButtonDown("Interact"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(false);
+                GameObject.Find("Bigfoot").gameObject.GetComponent<CarController2D>().enabled = true;
+                this.gameObject.GetComponent<Player>().gameObject.SetActive(false);
+                mainCamera.GetComponent<CameraFollowPlayer>().follow = GameObject.Find("Bigfoot").transform;
+            }
+
+        }
         if (isEnemy && collider.name == "Melee")
         {
             var a = 3;
@@ -493,27 +524,35 @@ public class Player : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collider)
     {
-        //if (!isFollower && !isEnemy)
-        //{
-        //    if (collider.name.StartsWith("ZoomIn"))
-        //    {
-        //        isZoomIn = false;
-        //    }
+        if (!isFollower && !isEnemy)
+        {
+            if (collider.name.StartsWith("Tractor"))
+            {
+                GameObject.Find("Tractor").transform.Find("Enter").gameObject.SetActive(false);
+            }
+            if (collider.name.StartsWith("Bigfoot"))
+            {
+                GameObject.Find("Bigfoot").transform.Find("Enter").gameObject.SetActive(false);
+            }
+            //    if (collider.name.StartsWith("ZoomIn"))
+            //    {
+            //        isZoomIn = false;
+            //    }
 
 
 
-        //}
+            //}
 
-        //      {
-        //          if (isFollower&&!isActive)
-        //          {
-        //              if (collider.tag.Equals("Player"))
-        //              {
-        //                  isActive = true;
-        //                 SetCurrentState(Player.PlayerStates.celebration);
-        //              }
-        //          }
-        //}
+            //      {
+            //          if (isFollower&&!isActive)
+            //          {
+            //              if (collider.tag.Equals("Player"))
+            //              {
+            //                  isActive = true;
+            //                 SetCurrentState(Player.PlayerStates.celebration);
+            //              }
+            //          }
+        }
     }
 
     void Update()
@@ -1692,7 +1731,19 @@ public class Player : MonoBehaviour
     {
         if (jumpFrames)
         {
-            isGrounded = Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer);
+            if(Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer))
+            isGrounded = true;
+             }
+        if (Physics2D.OverlapCircle(GroundCheck.position, 1f, interactiveLayer)&&this.velocity.y<=0f)
+        {
+            isGrounded = true;
+            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
+            Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
+        }
+        else
+        {
+            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
+           Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
         }
     }
 
@@ -1755,7 +1806,16 @@ public class Player : MonoBehaviour
     {
         if (isFollower && isActive && !isAiControlled)
         {
-            var playerTranform = GameObject.FindWithTag("Player").transform;
+            var player = GameObject.FindWithTag("Player");
+            if (player == null)
+            {
+                player = GameObject.Find("Tractor");
+                FollowPosition = 4;
+            }
+
+            var playerTranform = player.transform;
+
+          
 
             if (Mathf.Abs(playerTranform.localPosition.x - transform.localPosition.x) < 30)
             {
