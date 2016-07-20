@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
     public int health = 10;
     public bool isActive = false;
     public bool isDoubleJump = false;
+    public bool isWallJump = false;
     public bool isAiControlled = false;
 
 
@@ -1756,7 +1757,7 @@ public class Player : MonoBehaviour
 
     void CheckWallTouch()
     {
-        if (wallFrames)
+        if (wallFrames && isWallJump)
         {
             wallTouch = Physics2D.OverlapCircle(WallCheck.position, 0.8f, wallLayer);
         }

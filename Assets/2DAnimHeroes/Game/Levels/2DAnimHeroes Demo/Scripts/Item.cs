@@ -73,6 +73,11 @@ public class Item : MonoBehaviour {
                             player.isDoubleJump = true;
                             break;
                         }
+                    case "WallJump":
+                        {
+                            player.isWallJump = true;
+                            break;
+                        }
                     default:
                         {
                             break;
