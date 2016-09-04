@@ -706,14 +706,18 @@ public class Player : MonoBehaviour
         {
             float x = Mathf.Abs(Input.GetAxis("RightHorizontal"));
             float y = Input.GetAxis("RightVertical");
-            float angle = 0f;
+              float angle = 0f;
             if (x != 0.0f || y != 0.0f)
             {
                 angle = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
             }
-            //animation.skeleton.UpdateWorldTransform();
-            //This offset is quick-fix used to reorientate the right shoulder when looking up and down (when you hold a gun, one of your arms extends as you aim up or down more.)
-            float offset = angle;
+            if (currentState==PlayerStates.running)
+            {
+                angle += 20f;
+            }
+                //animation.skeleton.UpdateWorldTransform();
+                //This offset is quick-fix used to reorientate the right shoulder when looking up and down (when you hold a gun, one of your arms extends as you aim up or down more.)
+                float offset = angle;
             //		if (angle > 90)
             //			angle = 90;
             //		if (angle < -30)
