@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
     // Terminal velocity when on a wall, we don't want him getting skin burn when going down walls!
     public bool isFollower = false;
     public bool isEnemy = false;
+    private float originalFollowPosition = 0;
     public float FollowPosition = 0;
     public int health = 10;
     public bool isActive = false;
@@ -185,9 +186,10 @@ public class Player : MonoBehaviour
     private Vector3 cameraPosition;
     private float punch1time;
     private float punch2time;
-  
+
     void Start()
     {
+        originalFollowPosition = FollowPosition;
         currentSprintTimer = sprintTimer;
         animation = GetComponent<Spine.Unity.SkeletonAnimation>();
         body = GetComponent<Rigidbody2D>();
@@ -196,7 +198,7 @@ public class Player : MonoBehaviour
         leftShoulder = animation.skeleton.FindBone("arm_upper_far");
         rightShoulder = animation.skeleton.FindBone("arm_upper_near");
         animation.UpdateLocal += HandleUpdateLocal;
-        cameraFollowPlayer =  Camera.main.GetComponent<CameraFollowPlayer>();
+        cameraFollowPlayer = Camera.main.GetComponent<CameraFollowPlayer>();
 
         if (this.name.StartsWith("Player"))
         {
@@ -204,12 +206,12 @@ public class Player : MonoBehaviour
             animation.state.SetAnimation(0, "hitBig", false);
             //GetComponent<BoxCollider2D>().enabled = false;
             //GetComponent<CircleCollider2D>().enabled = false;
-           // animation.state.SetAnimation(1, "reset", true);
-            isDead = true;
-            // body.velocity = new Vector2(4, 0);
-            StartCoroutine(Cave());
-       //     GameObject.Find("CaveDialog").GetComponent<AudioSource>().Play();
-           
+            // animation.state.SetAnimation(1, "reset", true);
+
+            // Set this to true for cave routine.
+            //isDead = true;
+            //StartCoroutine(Cave());
+          
         }
         else
         {
@@ -294,8 +296,8 @@ public class Player : MonoBehaviour
 
             if (collider.name.StartsWith("ZoomIn"))
             {
-               // isZoomIn = true;
-                zoomSize = System.Int32.Parse( collider.name.Split('-')[1]);
+                // isZoomIn = true;
+                zoomSize = System.Int32.Parse(collider.name.Split('-')[1]);
             }
 
             if (collider.name.StartsWith("QuietZone"))
@@ -358,7 +360,7 @@ public class Player : MonoBehaviour
             }
 
 
-          
+
 
         }
 
@@ -383,10 +385,10 @@ public class Player : MonoBehaviour
         }
 
 
-        if ((!isEnemy && collider.tag == "BulletEnemy") 
-            || (isEnemy && collider.tag == "Bullet") 
+        if ((!isEnemy && collider.tag == "BulletEnemy")
+            || (isEnemy && collider.tag == "Bullet")
             || collider.tag == "Sword"
-            || (isEnemy && collider.name == "Melee"  && GameObject.Find("Player").GetComponent<Player>().isPunch))
+            || (isEnemy && collider.name == "Melee" && GameObject.Find("Player").GetComponent<Player>().isPunch))
         {
 
             if (health <= 0)
@@ -446,7 +448,7 @@ public class Player : MonoBehaviour
         {
             var a = 3;
         }
-        if (isEnemy && collider.name == "Melee" &&!isDead && GameObject.Find("Player").GetComponent<Player>().isPunch)
+        if (isEnemy && collider.name == "Melee" && !isDead && GameObject.Find("Player").GetComponent<Player>().isPunch)
         {
             if (health <= 0)
             {
@@ -559,14 +561,14 @@ public class Player : MonoBehaviour
     {
         if (!isFollower && !isEnemy)
         {
-          //  if (isZoomIn)
-          //  {
-                Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, zoomSize, 2f * Time.deltaTime);
-         //   }
-         //   else
-         //   {
-         //       Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
-         //   }
+            //  if (isZoomIn)
+            //  {
+            Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, zoomSize, 2f * Time.deltaTime);
+            //   }
+            //   else
+            //   {
+            //       Camera.main.orthographicSize = Mathf.MoveTowards(Camera.main.orthographicSize, 10f, .5f * Time.deltaTime);
+            //   }
             if (!cameraFollowPlayer.isFollowPlayer)
             {
                 Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, cameraPosition, 2f * Time.deltaTime);
@@ -591,7 +593,7 @@ public class Player : MonoBehaviour
             Movement();
             Flip();
             SkinChange();
-          
+
             if (currentState != previousState)
             {
                 SetAnimation();
@@ -729,7 +731,7 @@ public class Player : MonoBehaviour
     {
         if (isFollower)
         {
-            GameObject[] targets= new GameObject[0];
+            GameObject[] targets = new GameObject[0];
             if (isEnemy)
             {
                 if (!isAiControlled)
@@ -798,8 +800,8 @@ public class Player : MonoBehaviour
                 case CombatStates.unarmed:
                     this.isPunch = true;
 
-                  
-                    if (punch1time==0)
+
+                    if (punch1time == 0)
                     {
                         animation.state.SetAnimation(1, "punch1", false);
                         this.punch1time = .5f;
@@ -811,7 +813,7 @@ public class Player : MonoBehaviour
                         this.punch1time = .5f;
                         this.punch2time = .5f;
                     }
-                    else 
+                    else
                     {
                         animation.state.SetAnimation(1, "punch3", false);
                         this.punch2time = .5f;
@@ -906,7 +908,7 @@ public class Player : MonoBehaviour
             {
                 case CombatStates.unarmed:
                     this.isPunch = false;
-                 //   animation.state.SetAnimation(1, "reset", false);
+                    //   animation.state.SetAnimation(1, "reset", false);
                     allowMovement = true;
                     break;
                 case CombatStates.melee:
@@ -1731,19 +1733,19 @@ public class Player : MonoBehaviour
     {
         if (jumpFrames)
         {
-            if(Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer))
-            isGrounded = true;
-             }
-        if (Physics2D.OverlapCircle(GroundCheck.position, 1f, interactiveLayer)&&this.velocity.y<=0f)
+            if (Physics2D.OverlapCircle(GroundCheck.position, 0.1f, groundLayer))
+                isGrounded = true;
+        }
+        if (Physics2D.OverlapCircle(GroundCheck.position, 1f, interactiveLayer) && this.velocity.y <= 0f)
         {
             isGrounded = true;
-            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
-            Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(),false);
+            Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(), false);
+            Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>(), false);
         }
         else
         {
             Physics2D.IgnoreCollision(this.GetComponent<CircleCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
-           Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
+            Physics2D.IgnoreCollision(this.GetComponent<BoxCollider2D>(), GameObject.Find("Cart").GetComponent<PolygonCollider2D>());
         }
     }
 
@@ -1807,15 +1809,21 @@ public class Player : MonoBehaviour
         if (isFollower && isActive && !isAiControlled)
         {
             var player = GameObject.FindWithTag("Player");
-            if (player == null)
-            {
-                player = GameObject.Find("Tractor");
-                FollowPosition = 4;
-            }
+
+            // Uncomment for followers in tractor
+            //if (player == null)
+            //{
+            //    player = GameObject.Find("Tractor");
+            //    FollowPosition = 4;
+            //}
+            //else
+            //{
+            //    FollowPosition = originalFollowPosition;
+            //}
 
             var playerTranform = player.transform;
 
-          
+
 
             if (Mathf.Abs(playerTranform.localPosition.x - transform.localPosition.x) < 30)
             {
@@ -1971,5 +1979,5 @@ public class Player : MonoBehaviour
         }
     }
 
-   
+
 }
