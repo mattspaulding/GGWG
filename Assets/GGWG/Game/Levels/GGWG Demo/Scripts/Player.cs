@@ -711,9 +711,13 @@ public class Player : MonoBehaviour
             {
                 angle = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
             }
-            if (currentState==PlayerStates.running)
+            if (currentState == PlayerStates.running)
             {
-                angle += 20f;
+                angle += 25f;
+            }
+            else
+            {
+                angle += 2f;
             }
                 //animation.skeleton.UpdateWorldTransform();
                 //This offset is quick-fix used to reorientate the right shoulder when looking up and down (when you hold a gun, one of your arms extends as you aim up or down more.)
